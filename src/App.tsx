@@ -7,6 +7,7 @@ import AlertsPanel from './components/AlertsPanel';
 import AnalyticsView from './components/AnalyticsView';
 import AIRecommendationEngine from './components/AIRecommendationEngine';
 import LiveTrafficControl from './components/LiveTrafficControl';
+import DigitalTwinSimulation from './components/DigitalTwinSimulation';
 
 function App() {
   const [activeView, setActiveView] = useState('dashboard');
@@ -26,6 +27,7 @@ function App() {
     { id: 'scheduler', label: 'AI Optimizer', icon: Zap },
     { id: 'control', label: 'Traffic Control', icon: Radio },
     { id: 'alerts', label: 'Alerts', icon: AlertTriangle },
+    {id:'Digital',label:'Digitalsimiultor',icon:Radio},
     { id: 'analytics', label: 'Analytics', icon: Users }
   ];
 
@@ -43,6 +45,8 @@ function App() {
         return <LiveTrafficControl />;
       case 'alerts':
         return <AlertsPanel />;
+      case 'Digital':
+        return <DigitalTwinSimulation/>;
       case 'analytics':
         return <AnalyticsView />;
       default:
