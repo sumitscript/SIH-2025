@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { MapPin, Train, Clock, AlertTriangle, Zap, Eye, Activity, Navigation } from 'lucide-react';
-import { generateNetworkTopology, generateLiveTrains, generateTrafficPredictions, generateRouteRecommendations, calculateRouteMetrics } from '../utils/mapData';
+import { MapPin, Train, Clock, AlertTriangle, Zap, Eye, Activity, Navigation, RefreshCw } from 'lucide-react';
+import { generateNetworkTopology, generateTrafficPredictions, generateRouteRecommendations, calculateRouteMetrics } from '../utils/mapData';
+import { apiService } from '../services/apiService';
+import { transformApiTrainToTrain, Train as TrainType } from '../utils/dataTransform';
 import TrainControlModal from './TrainControlModal';
 
 const TrainMap: React.FC = () => {
@@ -8,26 +10,56 @@ const TrainMap: React.FC = () => {
   const [selectedTrain, setSelectedTrain] = useState<any>(null);
   const [selectedStation, setSelectedStation] = useState<any>(null);
   const [showTrainControl, setShowTrainControl] = useState(false);
-  const [liveTrains, setLiveTrains] = useState(generateLiveTrains());
+  const [liveTrains, setLiveTrains] = useState<TrainType[]>([]);
   const [trafficPredictions, setTrafficPredictions] = useState(generateTrafficPredictions());
   const [routeRecommendations, setRouteRecommendations] = useState(generateRouteRecommendations());
   const [networkData, setNetworkData] = useState(generateNetworkTopology());
+  const [loading, setLoading] = useState(true);
+  const [lastUpdated, setLastUpdated] = useState<string>('');
+
+  const fetchTrainsData = async () => {
+    try {
+      setLoading(true);
+      const trainsResponse = await apiService.fetchAllTrains();
+      
+      if (trainsResponse.success) {
+        const transformedTrains = Object.entries(trainsResponse.trains).map(([trainNo, trainData]) =>
+          transformApiTrainToTrain(trainNo, trainData)
+        );
+        
+        // Add map coordinates for visualization
+        const trainsWithCoords = transformedTrains.map((train, index) => ({
+          ...train,
+          x: 20 + (index * 15) % 60, // Distribute trains across the map
+          y: 20 + (index * 10) % 60,
+          progress: Math.random() * 100,
+          speed: 60 + Math.random() * 40,
+          eta: new Date(Date.now() + Math.random() * 3600000).toLocaleTimeString(),
+          nextStation: train.nextStation || 'Destination',
+          route: `${train.from} - ${train.to}`
+        }));
+        
+        setLiveTrains(trainsWithCoords);
+        setLastUpdated(trainsResponse.lastUpdatedAt);
+      }
+    } catch (error) {
+      console.error('Error fetching trains data:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
+    fetchTrainsData();
+    
     const interval = setInterval(() => {
-      setLiveTrains(prev => prev.map(train => ({
-        ...train,
-        x: train.x + (Math.random() - 0.5) * 2,
-        y: train.y + (Math.random() - 0.5) * 2,
-        progress: Math.min(100, train.progress + Math.random() * 2),
-        speed: train.speed + (Math.random() - 0.5) * 10
-      })));
+      fetchTrainsData(); // Fetch real data instead of mock updates
       
       if (Math.random() > 0.7) {
         setTrafficPredictions(generateTrafficPredictions());
         setRouteRecommendations(generateRouteRecommendations());
       }
-    }, 8000);
+    }, 15000); // Update every 15 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -191,10 +223,23 @@ const TrainMap: React.FC = () => {
           <p className="text-slate-400">Real-time train tracking and route optimization</p>
         </div>
         <div className="flex items-center space-x-4">
+          <button
+            onClick={fetchTrainsData}
+            disabled={loading}
+            className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 px-3 py-2 rounded-lg transition-colors"
+          >
+            <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
+            <span>Refresh</span>
+          </button>
           <div className="flex items-center space-x-2">
             <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
             <span className="text-sm text-green-400">Live Tracking Active</span>
           </div>
+          {lastUpdated && (
+            <span className="text-sm text-slate-400">
+              Updated: {new Date(lastUpdated).toLocaleTimeString()}
+            </span>
+          )}
           <select
             value={viewMode}
             onChange={(e) => setViewMode(e.target.value)}

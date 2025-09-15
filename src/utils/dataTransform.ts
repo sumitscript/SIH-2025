@@ -1,4 +1,5 @@
 import { ApiTrain, ApiTrainDetail, ApiStation } from '../services/apiService';
+import { getPlatformForStation, getNextStation as getTimetableNextStation } from './timetableData';
 
 export interface Train {
   id: string;
@@ -16,7 +17,17 @@ export interface Train {
   direction: 'up' | 'down';
   lastUpdated?: string;
   nextStation?: string;
+  currentPlatform?: string;
+  nextPlatform?: string;
   aiRecommendation?: string;
+  expectedDelay?: string;
+  speedRecommendation?: string;
+  mlRecommendations?: Array<{
+    type: string;
+    message: string;
+    confidence: number;
+    priority: string;
+  }>;
 }
 
 export interface Station {
@@ -42,7 +53,7 @@ const aiRecommendations = [
 export const transformApiTrainToTrain = (trainNo: string, apiTrain: ApiTrain): Train => {
   // Calculate delay in minutes
   const delayMinutes = parseInt(apiTrain.delayedTime.hours) * 60 + parseInt(apiTrain.delayedTime.minutes);
-  
+
   // Determine status based on API status and delay
   let status = 'En Route';
   if (apiTrain.status === 'left') {
@@ -66,13 +77,17 @@ export const transformApiTrainToTrain = (trainNo: string, apiTrain: ApiTrain): T
 
   // Format time
   const statusTime = `${apiTrain.statusTime.hours}:${apiTrain.statusTime.minutes}`;
-  
+
   // Calculate estimated arrival (simple estimation)
   const currentHour = parseInt(apiTrain.statusTime.hours);
   const currentMinute = parseInt(apiTrain.statusTime.minutes);
   const estimatedArrivalHour = (currentHour + 2 + Math.floor((currentMinute + delayMinutes) / 60)) % 24;
   const estimatedArrivalMinute = (currentMinute + delayMinutes) % 60;
   const arrival = `${estimatedArrivalHour.toString().padStart(2, '0')}:${estimatedArrivalMinute.toString().padStart(2, '0')}`;
+
+  // Get platform information from timetable data
+  const currentPlatform = getPlatformForStation(trainNo, apiTrain.station);
+  const nextStationInfo = getTimetableNextStation(trainNo, apiTrain.station);
 
   const train: Train = {
     id: trainNo,
@@ -88,6 +103,9 @@ export const transformApiTrainToTrain = (trainNo: string, apiTrain: ApiTrain): T
     direction: apiTrain.direction,
     delayMinutes,
     lastUpdated: new Date().toISOString(),
+    currentPlatform,
+    nextStation: nextStationInfo?.station,
+    nextPlatform: nextStationInfo?.platform,
   };
 
   // Add delay information if delayed
@@ -95,9 +113,11 @@ export const transformApiTrainToTrain = (trainNo: string, apiTrain: ApiTrain): T
     train.delay = `Delayed by ${Math.floor(delayMinutes / 60)}h ${delayMinutes % 60}m`;
   }
 
-  // Add AI recommendations for some trains
-  if (Math.random() > 0.6 || delayMinutes > 15) {
-    train.aiRecommendation = aiRecommendations[Math.floor(Math.random() * aiRecommendations.length)];
+  // Reduce dummy AI recommendations - only add for significantly delayed trains
+  if (delayMinutes > 30) {
+    train.aiRecommendation = `Train ${trainNo} is significantly delayed. Consider priority routing and speed optimization.`;
+  } else if (delayMinutes > 15 && apiTrain.type === 'Express') {
+    train.aiRecommendation = `Express service delayed. Monitor passenger connections and platform availability.`;
   }
 
   return train;
@@ -134,10 +154,10 @@ export const getNextStation = (trainDetail: ApiTrainDetail, currentStation: stri
   const currentIndex = trainDetail.timetable.findIndex(
     stop => stop.station.toLowerCase() === currentStation.toLowerCase()
   );
-  
+
   if (currentIndex >= 0 && currentIndex < trainDetail.timetable.length - 1) {
     return trainDetail.timetable[currentIndex + 1].station;
   }
-  
+
   return 'Destination';
 };

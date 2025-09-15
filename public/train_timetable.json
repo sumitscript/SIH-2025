@@ -1,0 +1,4631 @@
+{
+    "trains": {
+        "10103": {
+            "train_name": "MANDOVI EXPRESS",
+            "train_number": "10103",
+            "origin": "Mumbai CSM Terminus (CSMT)",
+            "destination": "Madgaon Junction (MAO)",
+            "total_distance_km": 765,
+            "journey_duration": "14h 45m",
+            "total_stops": 20,
+            "intermediate_stops": [
+                {
+                    "station_name": "Mumbai CSM Terminus",
+                    "station_code": "CSMT",
+                    "arrival": "Start",
+                    "departure": "07:10",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 16
+                },
+                {
+                    "station_name": "Mumbai Dadar Central",
+                    "station_code": "DR",
+                    "arrival": "07:22",
+                    "departure": "07:25",
+                    "halt_time": "3m",
+                    "distance_km": 9.0,
+                    "platform": 10
+                },
+                {
+                    "station_name": "Thane",
+                    "station_code": "TNA",
+                    "arrival": "07:51",
+                    "departure": "07:55",
+                    "halt_time": "4m",
+                    "distance_km": 34.0,
+                    "platform": 7
+                },
+                {
+                    "station_name": "Panvel Jn",
+                    "station_code": "PNVL",
+                    "arrival": "08:30",
+                    "departure": "08:35",
+                    "halt_time": "5m",
+                    "distance_km": 69.0,
+                    "platform": 7
+                },
+                {
+                    "station_name": "Mangaon",
+                    "station_code": "MNI",
+                    "arrival": "10:18",
+                    "departure": "10:20",
+                    "halt_time": "2m",
+                    "distance_km": 188.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "11:48",
+                    "departure": "11:50",
+                    "halt_time": "2m",
+                    "distance_km": 284.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "12:28",
+                    "departure": "12:30",
+                    "halt_time": "2m",
+                    "distance_km": 325.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Sangameshwar Road",
+                    "station_code": "SGR",
+                    "arrival": "13:30",
+                    "departure": "13:32",
+                    "halt_time": "2m",
+                    "distance_km": 384.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "14:45",
+                    "departure": "14:50",
+                    "halt_time": "5m",
+                    "distance_km": 431.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Adavali",
+                    "station_code": "ADVI",
+                    "arrival": "15:20",
+                    "departure": "15:22",
+                    "halt_time": "2m",
+                    "distance_km": 475.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Rajapur Road",
+                    "station_code": "RAJP",
+                    "arrival": "16:30",
+                    "departure": "16:32",
+                    "halt_time": "2m",
+                    "distance_km": 520.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vaibhavwadi Rd",
+                    "station_code": "VBW",
+                    "arrival": "16:56",
+                    "departure": "16:58",
+                    "halt_time": "2m",
+                    "distance_km": 543.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "17:30",
+                    "departure": "17:32",
+                    "halt_time": "2m",
+                    "distance_km": 587.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Sindhudurg",
+                    "station_code": "SNDD",
+                    "arrival": "18:00",
+                    "departure": "18:02",
+                    "halt_time": "2m",
+                    "distance_km": 612.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "18:14",
+                    "departure": "18:16",
+                    "halt_time": "2m",
+                    "distance_km": 626.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "19:00",
+                    "departure": "19:02",
+                    "halt_time": "2m",
+                    "distance_km": 655.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Pernem",
+                    "station_code": "PERN",
+                    "arrival": "19:32",
+                    "departure": "19:34",
+                    "halt_time": "2m",
+                    "distance_km": 686.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "19:46",
+                    "departure": "19:48",
+                    "halt_time": "2m",
+                    "distance_km": 701.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Karmali",
+                    "station_code": "KRMI",
+                    "arrival": "20:20",
+                    "departure": "20:22",
+                    "halt_time": "2m",
+                    "distance_km": 725.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon Jn",
+                    "station_code": "MAO",
+                    "arrival": "21:55",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 765.0,
+                    "platform": 2
+                }
+            ]
+        },
+        "10104": {
+            "train_name": "MANDOVI EXPRESS",
+            "train_number": "10104",
+            "origin": "Madgaon Junction (MAO)",
+            "destination": "Mumbai CSM Terminus (CSMT)",
+            "total_distance_km": 764,
+            "journey_duration": "13h 15m",
+            "total_stops": 20,
+            "intermediate_stops": [
+                {
+                    "station_name": "Madgaon Junction",
+                    "station_code": "MAO",
+                    "arrival": "Start",
+                    "departure": "08:30",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karmali",
+                    "station_code": "KRMI",
+                    "arrival": "09:00",
+                    "departure": "09:02",
+                    "halt_time": "2m",
+                    "distance_km": 41.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "09:20",
+                    "departure": "09:22",
+                    "halt_time": "2m",
+                    "distance_km": 65.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Pernem",
+                    "station_code": "PERN",
+                    "arrival": "09:32",
+                    "departure": "09:34",
+                    "halt_time": "2m",
+                    "distance_km": 80.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "10:02",
+                    "departure": "10:04",
+                    "halt_time": "2m",
+                    "distance_km": 111.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "10:22",
+                    "departure": "10:24",
+                    "halt_time": "2m",
+                    "distance_km": 140.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sindhudurg",
+                    "station_code": "SNDD",
+                    "arrival": "10:38",
+                    "departure": "10:40",
+                    "halt_time": "2m",
+                    "distance_km": 154.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "11:00",
+                    "departure": "11:02",
+                    "halt_time": "2m",
+                    "distance_km": 179.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vaibhavwadi Road",
+                    "station_code": "VBW",
+                    "arrival": "11:30",
+                    "departure": "11:32",
+                    "halt_time": "2m",
+                    "distance_km": 222.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Rajapur Road",
+                    "station_code": "RAJP",
+                    "arrival": "11:48",
+                    "departure": "11:50",
+                    "halt_time": "2m",
+                    "distance_km": 246.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Adavali",
+                    "station_code": "ADVI",
+                    "arrival": "13:00",
+                    "departure": "13:02",
+                    "halt_time": "2m",
+                    "distance_km": 291.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "14:00",
+                    "departure": "14:05",
+                    "halt_time": "5m",
+                    "distance_km": 335.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Sangameshwar Road",
+                    "station_code": "SGR",
+                    "arrival": "14:45",
+                    "departure": "14:47",
+                    "halt_time": "2m",
+                    "distance_km": 382.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "15:30",
+                    "departure": "15:32",
+                    "halt_time": "2m",
+                    "distance_km": 441.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "16:02",
+                    "departure": "16:04",
+                    "halt_time": "2m",
+                    "distance_km": 482.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Mangaon",
+                    "station_code": "MNI",
+                    "arrival": "17:08",
+                    "departure": "17:10",
+                    "halt_time": "2m",
+                    "distance_km": 578.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Panvel Jn",
+                    "station_code": "PNVL",
+                    "arrival": "18:57",
+                    "departure": "19:00",
+                    "halt_time": "3m",
+                    "distance_km": 697.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Thane",
+                    "station_code": "TNA",
+                    "arrival": "20:37",
+                    "departure": "20:40",
+                    "halt_time": "3m",
+                    "distance_km": 730.22,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Mumbai Dadar Central",
+                    "station_code": "DR",
+                    "arrival": "21:07",
+                    "departure": "21:10",
+                    "halt_time": "3m",
+                    "distance_km": 755.11,
+                    "platform": 12
+                },
+                {
+                    "station_name": "Mumbai CSM Terminus",
+                    "station_code": "CSMT",
+                    "arrival": "21:45",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 764.0,
+                    "platform": 17
+                }
+            ]
+        },
+        "10105": {
+            "train_name": "DIVA SWV EXPRESS",
+            "train_number": "10105",
+            "origin": "Diva Jn (DIVA)",
+            "destination": "Sawantwadi Road (SWV)",
+            "total_distance_km": 613,
+            "journey_duration": "12h 20m",
+            "total_stops": 36,
+            "intermediate_stops": [
+                {
+                    "station_name": "Diva Jn",
+                    "station_code": "DIVA",
+                    "arrival": "Start",
+                    "departure": "06:25",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 8
+                },
+                {
+                    "station_name": "Kalamboli",
+                    "station_code": "KLMC",
+                    "arrival": "06:39",
+                    "departure": "06:40",
+                    "halt_time": "1m",
+                    "distance_km": 20.5,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Panvel Jn",
+                    "station_code": "PNVL",
+                    "arrival": "06:53",
+                    "departure": "07:05",
+                    "halt_time": "12m",
+                    "distance_km": 26.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Apta",
+                    "station_code": "APTA",
+                    "arrival": "07:17",
+                    "departure": "07:18",
+                    "halt_time": "1m",
+                    "distance_km": 41.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Jite",
+                    "station_code": "JITE",
+                    "arrival": "07:27",
+                    "departure": "07:28",
+                    "halt_time": "1m",
+                    "distance_km": 45.6,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Pen",
+                    "station_code": "PEN",
+                    "arrival": "07:35",
+                    "departure": "07:36",
+                    "halt_time": "1m",
+                    "distance_km": 60.5,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Roha",
+                    "station_code": "ROHA",
+                    "arrival": "09:00",
+                    "departure": "09:05",
+                    "halt_time": "5m",
+                    "distance_km": 100.4,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Kolad",
+                    "station_code": "KOL",
+                    "arrival": "09:16",
+                    "departure": "09:17",
+                    "halt_time": "1m",
+                    "distance_km": 113.4,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Mangaon",
+                    "station_code": "MNI",
+                    "arrival": "09:27",
+                    "departure": "09:28",
+                    "halt_time": "1m",
+                    "distance_km": 130.9,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Goregaon Road",
+                    "station_code": "GNO",
+                    "arrival": "09:38",
+                    "departure": "09:39",
+                    "halt_time": "1m",
+                    "distance_km": 141.2,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Veer",
+                    "station_code": "VEER",
+                    "arrival": "09:46",
+                    "departure": "09:47",
+                    "halt_time": "1m",
+                    "distance_km": 147.4,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sape Wamne",
+                    "station_code": "SAPE",
+                    "arrival": "10:00",
+                    "departure": "10:01",
+                    "halt_time": "1m",
+                    "distance_km": 154.9,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karanjadi",
+                    "station_code": "KFD",
+                    "arrival": "10:15",
+                    "departure": "10:16",
+                    "halt_time": "1m",
+                    "distance_km": 163.2,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vinhere",
+                    "station_code": "VINH",
+                    "arrival": "10:30",
+                    "departure": "10:31",
+                    "halt_time": "1m",
+                    "distance_km": 171.2,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "11:04",
+                    "departure": "11:05",
+                    "halt_time": "1m",
+                    "distance_km": 198.8,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Anjani",
+                    "station_code": "ANJ",
+                    "arrival": "11:19",
+                    "departure": "11:20",
+                    "halt_time": "1m",
+                    "distance_km": 212.2,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "11:35",
+                    "departure": "11:40",
+                    "halt_time": "5m",
+                    "distance_km": 228.4,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Savarda",
+                    "station_code": "SVX",
+                    "arrival": "12:01",
+                    "departure": "12:02",
+                    "halt_time": "1m",
+                    "distance_km": 246.9,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Aravali Road",
+                    "station_code": "AVRD",
+                    "arrival": "12:14",
+                    "departure": "12:15",
+                    "halt_time": "1m",
+                    "distance_km": 250.6,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sangameshwar Road",
+                    "station_code": "SGR",
+                    "arrival": "12:37",
+                    "departure": "12:38",
+                    "halt_time": "1m",
+                    "distance_km": 270.9,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "14:00",
+                    "departure": "14:05",
+                    "halt_time": "5m",
+                    "distance_km": 303.8,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Nivasar",
+                    "station_code": "NIV",
+                    "arrival": "14:22",
+                    "departure": "14:23",
+                    "halt_time": "1m",
+                    "distance_km": 319.1,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Adavali",
+                    "station_code": "ADVI",
+                    "arrival": "14:43",
+                    "departure": "14:44",
+                    "halt_time": "1m",
+                    "distance_km": 335.2,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Veravali",
+                    "station_code": "VRLI",
+                    "arrival": "14:58",
+                    "departure": "14:59",
+                    "halt_time": "1m",
+                    "distance_km": 345.3,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vilavade",
+                    "station_code": "VID",
+                    "arrival": "15:09",
+                    "departure": "15:10",
+                    "halt_time": "1m",
+                    "distance_km": 350.8,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Saundal",
+                    "station_code": "SUAL",
+                    "arrival": "15:22",
+                    "departure": "15:23",
+                    "halt_time": "1m",
+                    "distance_km": 360.2,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Rajapur Road",
+                    "station_code": "RAJP",
+                    "arrival": "15:35",
+                    "departure": "15:36",
+                    "halt_time": "1m",
+                    "distance_km": 367.5,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kharepatan Road",
+                    "station_code": "KRPN",
+                    "arrival": "15:45",
+                    "departure": "15:46",
+                    "halt_time": "1m",
+                    "distance_km": 376.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vaibhavwadi Road",
+                    "station_code": "VBW",
+                    "arrival": "15:54",
+                    "departure": "15:55",
+                    "halt_time": "1m",
+                    "distance_km": 384.1,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Achirne",
+                    "station_code": "ACRN",
+                    "arrival": "16:06",
+                    "departure": "16:07",
+                    "halt_time": "1m",
+                    "distance_km": 393.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Nandgaon Road",
+                    "station_code": "NAN",
+                    "arrival": "16:16",
+                    "departure": "16:17",
+                    "halt_time": "1m",
+                    "distance_km": 399.8,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "16:33",
+                    "departure": "16:34",
+                    "halt_time": "1m",
+                    "distance_km": 415.2,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sindhudurg",
+                    "station_code": "SNDD",
+                    "arrival": "16:50",
+                    "departure": "16:51",
+                    "halt_time": "1m",
+                    "distance_km": 432.9,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "17:10",
+                    "departure": "17:11",
+                    "halt_time": "1m",
+                    "distance_km": 443.5,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Zarap",
+                    "station_code": "ZARP",
+                    "arrival": "17:31",
+                    "departure": "17:32",
+                    "halt_time": "1m",
+                    "distance_km": 453.8,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "18:45",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 464.3,
+                    "platform": 1
+                }
+            ]
+        },
+        "10106": {
+            "train_name": "SWV DIVA PASS",
+            "train_number": "10106",
+            "origin": "Sawantwadi Road (SWV)",
+            "destination": "Diva Jn (DIVA)",
+            "total_distance_km": 464,
+            "journey_duration": "11h 30m",
+            "total_stops": 36,
+            "intermediate_stops": [
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "Start",
+                    "departure": "08:40",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Zarap",
+                    "station_code": "ZARP",
+                    "arrival": "08:55",
+                    "departure": "08:56",
+                    "halt_time": "1m",
+                    "distance_km": 10.5,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "09:07",
+                    "departure": "09:08",
+                    "halt_time": "1m",
+                    "distance_km": 20.8,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Sindhudurg",
+                    "station_code": "SNDD",
+                    "arrival": "09:18",
+                    "departure": "09:19",
+                    "halt_time": "1m",
+                    "distance_km": 31.4,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "09:35",
+                    "departure": "09:36",
+                    "halt_time": "1m",
+                    "distance_km": 49.1,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Nandgaon Road",
+                    "station_code": "NAN",
+                    "arrival": "09:50",
+                    "departure": "09:51",
+                    "halt_time": "1m",
+                    "distance_km": 64.6,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Achirne",
+                    "station_code": "ACRN",
+                    "arrival": "10:00",
+                    "departure": "10:01",
+                    "halt_time": "1m",
+                    "distance_km": 71.3,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vaibhavwadi Road",
+                    "station_code": "VBW",
+                    "arrival": "10:10",
+                    "departure": "10:11",
+                    "halt_time": "1m",
+                    "distance_km": 80.2,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kharepatan Road",
+                    "station_code": "KRPN",
+                    "arrival": "10:21",
+                    "departure": "10:22",
+                    "halt_time": "1m",
+                    "distance_km": 88.3,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Rajapur Road",
+                    "station_code": "RAJP",
+                    "arrival": "10:32",
+                    "departure": "10:33",
+                    "halt_time": "1m",
+                    "distance_km": 96.8,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Saundal",
+                    "station_code": "SUAL",
+                    "arrival": "10:43",
+                    "departure": "10:44",
+                    "halt_time": "1m",
+                    "distance_km": 104.2,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vilavade",
+                    "station_code": "VID",
+                    "arrival": "10:53",
+                    "departure": "10:54",
+                    "halt_time": "1m",
+                    "distance_km": 113.5,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Veravali",
+                    "station_code": "VRLI",
+                    "arrival": "11:04",
+                    "departure": "11:05",
+                    "halt_time": "1m",
+                    "distance_km": 119.1,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Adavali",
+                    "station_code": "ADVI",
+                    "arrival": "11:18",
+                    "departure": "11:19",
+                    "halt_time": "1m",
+                    "distance_km": 129.1,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Nivasar",
+                    "station_code": "NIV",
+                    "arrival": "11:39",
+                    "departure": "11:40",
+                    "halt_time": "1m",
+                    "distance_km": 145.3,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "12:00",
+                    "departure": "12:05",
+                    "halt_time": "5m",
+                    "distance_km": 160.6,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Sangameshwar Road",
+                    "station_code": "SGR",
+                    "arrival": "12:50",
+                    "departure": "12:51",
+                    "halt_time": "1m",
+                    "distance_km": 193.4,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Aravali Road",
+                    "station_code": "AVRD",
+                    "arrival": "13:10",
+                    "departure": "13:11",
+                    "halt_time": "1m",
+                    "distance_km": 213.7,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Savarda",
+                    "station_code": "SVX",
+                    "arrival": "13:24",
+                    "departure": "13:25",
+                    "halt_time": "1m",
+                    "distance_km": 217.5,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "13:45",
+                    "departure": "13:50",
+                    "halt_time": "5m",
+                    "distance_km": 236.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Anjani",
+                    "station_code": "ANO",
+                    "arrival": "14:05",
+                    "departure": "14:06",
+                    "halt_time": "1m",
+                    "distance_km": 252.1,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "14:21",
+                    "departure": "14:22",
+                    "halt_time": "1m",
+                    "distance_km": 265.6,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vinhere",
+                    "station_code": "VINH",
+                    "arrival": "14:50",
+                    "departure": "14:51",
+                    "halt_time": "1m",
+                    "distance_km": 293.1,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karanjadi",
+                    "station_code": "KFD",
+                    "arrival": "15:05",
+                    "departure": "15:06",
+                    "halt_time": "1m",
+                    "distance_km": 301.2,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sape Wamne",
+                    "station_code": "SAPE",
+                    "arrival": "15:17",
+                    "departure": "15:18",
+                    "halt_time": "1m",
+                    "distance_km": 309.4,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Veer",
+                    "station_code": "VEER",
+                    "arrival": "15:30",
+                    "departure": "15:31",
+                    "halt_time": "1m",
+                    "distance_km": 316.9,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Goregaon Road",
+                    "station_code": "GNO",
+                    "arrival": "15:56",
+                    "departure": "15:57",
+                    "halt_time": "1m",
+                    "distance_km": 323.2,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Mangaon",
+                    "station_code": "MNI",
+                    "arrival": "16:07",
+                    "departure": "16:08",
+                    "halt_time": "1m",
+                    "distance_km": 333.5,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kolad",
+                    "station_code": "KOL",
+                    "arrival": "16:29",
+                    "departure": "16:30",
+                    "halt_time": "1m",
+                    "distance_km": 351.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Roha",
+                    "station_code": "ROHA",
+                    "arrival": "17:20",
+                    "departure": "17:25",
+                    "halt_time": "5m",
+                    "distance_km": 364.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Pen",
+                    "station_code": "PEN",
+                    "arrival": "18:00",
+                    "departure": "18:01",
+                    "halt_time": "1m",
+                    "distance_km": 403.9,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Jite",
+                    "station_code": "JITE",
+                    "arrival": "18:14",
+                    "departure": "18:15",
+                    "halt_time": "1m",
+                    "distance_km": 418.8,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Apta",
+                    "station_code": "APTA",
+                    "arrival": "18:28",
+                    "departure": "18:29",
+                    "halt_time": "1m",
+                    "distance_km": 423.4,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Panvel Jn",
+                    "station_code": "PNVL",
+                    "arrival": "18:47",
+                    "departure": "18:50",
+                    "halt_time": "3m",
+                    "distance_km": 438.8,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Kalamboli",
+                    "station_code": "KLMC",
+                    "arrival": "19:00",
+                    "departure": "19:01",
+                    "halt_time": "1m",
+                    "distance_km": 443.8,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Diva Jn",
+                    "station_code": "DIVA",
+                    "arrival": "20:10",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 464.3,
+                    "platform": 8
+                }
+            ]
+        },
+        "10115": {
+            "train_name": "BDTS-MAO EXPRESS",
+            "train_number": "10115",
+            "origin": "Mumbai Bandra Trm (BDTS)",
+            "destination": "Madgaon Jn (MAO)",
+            "total_distance_km": 613,
+            "journey_duration": "15h 50m",
+            "total_stops": 15,
+            "intermediate_stops": [
+                {
+                    "station_name": "Mumbai Bandra Trm",
+                    "station_code": "BDTS",
+                    "arrival": "Start",
+                    "departure": "06:50",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Borivali",
+                    "station_code": "BVI",
+                    "arrival": "07:15",
+                    "departure": "07:17",
+                    "halt_time": "2m",
+                    "distance_km": 19.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Vasai Road",
+                    "station_code": "BSR",
+                    "arrival": "07:50",
+                    "departure": "08:15",
+                    "halt_time": "25m",
+                    "distance_km": 37.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Bhiwandi Road",
+                    "station_code": "BIRD",
+                    "arrival": "08:50",
+                    "departure": "08:52",
+                    "halt_time": "2m",
+                    "distance_km": 64.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Panvel Jn",
+                    "station_code": "PNVL",
+                    "arrival": "09:43",
+                    "departure": "09:45",
+                    "halt_time": "2m",
+                    "distance_km": 104.0,
+                    "platform": 7
+                },
+                {
+                    "station_name": "Roha",
+                    "station_code": "ROHA",
+                    "arrival": "11:15",
+                    "departure": "11:20",
+                    "halt_time": "5m",
+                    "distance_km": 182.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Veer",
+                    "station_code": "VEER",
+                    "arrival": "12:00",
+                    "departure": "12:02",
+                    "halt_time": "2m",
+                    "distance_km": 247.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "13:25",
+                    "departure": "13:27",
+                    "halt_time": "2m",
+                    "distance_km": 361.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "16:05",
+                    "departure": "16:10",
+                    "halt_time": "5m",
+                    "distance_km": 467.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "18:40",
+                    "departure": "18:42",
+                    "halt_time": "2m",
+                    "distance_km": 622.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sindhudurg",
+                    "station_code": "SNDD",
+                    "arrival": "19:00",
+                    "departure": "19:02",
+                    "halt_time": "2m",
+                    "distance_km": 647.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "19:30",
+                    "departure": "19:32",
+                    "halt_time": "2m",
+                    "distance_km": 691.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "20:30",
+                    "departure": "20:32",
+                    "halt_time": "2m",
+                    "distance_km": 737.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karmali",
+                    "station_code": "KRMI",
+                    "arrival": "21:00",
+                    "departure": "21:02",
+                    "halt_time": "2m",
+                    "distance_km": 761.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon Jn",
+                    "station_code": "MAO",
+                    "arrival": "22:40",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 801.0,
+                    "platform": 2
+                }
+            ]
+        },
+        "11099": {
+            "train_name": "LTT-MAO EXPRESS",
+            "train_number": "11099",
+            "origin": "Mumbai LTT (LTT)",
+            "destination": "Madgaon Junction (MAO)",
+            "total_distance_km": 750,
+            "journey_duration": "13h 55m",
+            "total_stops": 12,
+            "intermediate_stops": [
+                {
+                    "station_name": "Mumbai LTT",
+                    "station_code": "LTT",
+                    "arrival": "Start",
+                    "departure": "00:45",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thane",
+                    "station_code": "TNA",
+                    "arrival": "01:05",
+                    "departure": "01:10",
+                    "halt_time": "5m",
+                    "distance_km": 18.0,
+                    "platform": 7
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "01:42",
+                    "departure": "01:45",
+                    "halt_time": "3m",
+                    "distance_km": 53.0,
+                    "platform": 7
+                },
+                {
+                    "station_name": "Roha",
+                    "station_code": "ROHA",
+                    "arrival": "03:00",
+                    "departure": "03:02",
+                    "halt_time": "2m",
+                    "distance_km": 130.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "04:36",
+                    "departure": "04:38",
+                    "halt_time": "2m",
+                    "distance_km": 268.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "05:08",
+                    "departure": "05:10",
+                    "halt_time": "2m",
+                    "distance_km": 309.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "08:20",
+                    "departure": "08:25",
+                    "halt_time": "5m",
+                    "distance_km": 415.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "10:40",
+                    "departure": "10:42",
+                    "halt_time": "2m",
+                    "distance_km": 571.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "11:50",
+                    "departure": "11:52",
+                    "halt_time": "2m",
+                    "distance_km": 640.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "13:00",
+                    "departure": "13:02",
+                    "halt_time": "2m",
+                    "distance_km": 685.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karmali",
+                    "station_code": "KRMI",
+                    "arrival": "13:22",
+                    "departure": "13:24",
+                    "halt_time": "2m",
+                    "distance_km": 710.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon Jn",
+                    "station_code": "MAO",
+                    "arrival": "14:40",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 750.0,
+                    "platform": 2
+                }
+            ]
+        },
+        "12051": {
+            "train_name": "CSMT-MAO JANSHA",
+            "train_number": "12051",
+            "origin": "Mumbai CSM Terminus (CSMT)",
+            "destination": "Madgaon Junction (MAO)",
+            "total_distance_km": 765,
+            "journey_duration": "9h 20m",
+            "total_stops": 11,
+            "intermediate_stops": [
+                {
+                    "station_name": "Mumbai CSM Terminus",
+                    "station_code": "CSMT",
+                    "arrival": "Start",
+                    "departure": "05:10",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 8
+                },
+                {
+                    "station_name": "Mumbai Dadar Central",
+                    "station_code": "DR",
+                    "arrival": "05:18",
+                    "departure": "05:20",
+                    "halt_time": "2m",
+                    "distance_km": 9.0,
+                    "platform": 11
+                },
+                {
+                    "station_name": "Thane",
+                    "station_code": "TNA",
+                    "arrival": "05:43",
+                    "departure": "05:45",
+                    "halt_time": "2m",
+                    "distance_km": 34.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Panvel Jn",
+                    "station_code": "PNVL",
+                    "arrival": "06:23",
+                    "departure": "06:25",
+                    "halt_time": "2m",
+                    "distance_km": 69.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "09:00",
+                    "departure": "09:02",
+                    "halt_time": "2m",
+                    "distance_km": 325.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "10:40",
+                    "departure": "10:45",
+                    "halt_time": "5m",
+                    "distance_km": 431.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "12:10",
+                    "departure": "12:12",
+                    "halt_time": "2m",
+                    "distance_km": 587.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "12:30",
+                    "departure": "12:32",
+                    "halt_time": "2m",
+                    "distance_km": 626.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "12:50",
+                    "departure": "12:52",
+                    "halt_time": "2m",
+                    "distance_km": 655.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "13:20",
+                    "departure": "13:22",
+                    "halt_time": "2m",
+                    "distance_km": 701.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Madgaon Jn",
+                    "station_code": "MAO",
+                    "arrival": "14:30",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 765.0,
+                    "platform": "N/A"
+                }
+            ]
+        },
+        "12052": {
+            "train_name": "MAO-CSMT JANSHA",
+            "train_number": "12052",
+            "origin": "Madgaon Junction (MAO)",
+            "destination": "Mumbai CSM Terminus (CSMT)",
+            "total_distance_km": 765,
+            "journey_duration": "11h 59m",
+            "total_stops": 11,
+            "intermediate_stops": [
+                {
+                    "station_name": "Madgaon Junction",
+                    "station_code": "MAO",
+                    "arrival": "Start",
+                    "departure": "12:00",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "12:50",
+                    "departure": "12:52",
+                    "halt_time": "2m",
+                    "distance_km": 65.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "13:40",
+                    "departure": "13:42",
+                    "halt_time": "2m",
+                    "distance_km": 111.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "14:00",
+                    "departure": "14:02",
+                    "halt_time": "2m",
+                    "distance_km": 140.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "14:50",
+                    "departure": "14:52",
+                    "halt_time": "2m",
+                    "distance_km": 179.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "17:20",
+                    "departure": "17:25",
+                    "halt_time": "5m",
+                    "distance_km": 335.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "18:40",
+                    "departure": "18:42",
+                    "halt_time": "2m",
+                    "distance_km": 441.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Panvel Jn",
+                    "station_code": "PNVL",
+                    "arrival": "21:58",
+                    "departure": "22:00",
+                    "halt_time": "2m",
+                    "distance_km": 697.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Thane",
+                    "station_code": "TNA",
+                    "arrival": "22:43",
+                    "departure": "22:45",
+                    "halt_time": "2m",
+                    "distance_km": 732.0,
+                    "platform": 8
+                },
+                {
+                    "station_name": "Dadar",
+                    "station_code": "DR",
+                    "arrival": "23:08",
+                    "departure": "23:10",
+                    "halt_time": "2m",
+                    "distance_km": 757.0,
+                    "platform": 12
+                },
+                {
+                    "station_name": "Mumbai CSM Terminus",
+                    "station_code": "CSMT",
+                    "arrival": "23:59",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 765.0,
+                    "platform": 8
+                }
+            ]
+        },
+        "12133": {
+            "train_name": "MANGALURU EXPRESS",
+            "train_number": "12133",
+            "origin": "Mumbai CSM Terminus (CSMT)",
+            "destination": "Mangaluru Jn (MAJN)",
+            "total_distance_km": 1196,
+            "journey_duration": "17h 48m",
+            "total_stops": 15,
+            "intermediate_stops": [
+                {
+                    "station_name": "Mumbai CSM Terminus",
+                    "station_code": "CSMT",
+                    "arrival": "Start",
+                    "departure": "22:02",
+                    "halt_time": "-",
+                    "distance_km": 0.0
+                },
+                {
+                    "station_name": "Thane",
+                    "station_code": "TNA",
+                    "arrival": "22:33",
+                    "departure": "22:35",
+                    "halt_time": "2m",
+                    "distance_km": 34.0
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "23:12",
+                    "departure": "23:15",
+                    "halt_time": "3m",
+                    "distance_km": 69.0
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "04:50",
+                    "departure": "04:55",
+                    "halt_time": "5m",
+                    "distance_km": 431.0
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "06:40",
+                    "departure": "06:42",
+                    "halt_time": "2m",
+                    "distance_km": 587.0
+                },
+                {
+                    "station_name": "Karmali",
+                    "station_code": "KRMI",
+                    "arrival": "08:18",
+                    "departure": "08:20",
+                    "halt_time": "2m",
+                    "distance_km": 725.0
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "08:50",
+                    "departure": "09:00",
+                    "halt_time": "10m",
+                    "distance_km": 765.0
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "09:58",
+                    "departure": "10:00",
+                    "halt_time": "2m",
+                    "distance_km": 847.0
+                },
+                {
+                    "station_name": "Kumta",
+                    "station_code": "KT",
+                    "arrival": "11:07",
+                    "departure": "11:08",
+                    "halt_time": "1m",
+                    "distance_km": 924.0
+                },
+                {
+                    "station_name": "Bhatkal",
+                    "station_code": "BTJL",
+                    "arrival": "12:00",
+                    "departure": "12:01",
+                    "halt_time": "1m",
+                    "distance_km": 1001.0
+                },
+                {
+                    "station_name": "Mookambika Road",
+                    "station_code": "BYNR",
+                    "arrival": "12:19",
+                    "departure": "12:20",
+                    "halt_time": "1m",
+                    "distance_km": 1023.0
+                },
+                {
+                    "station_name": "Kundapura",
+                    "station_code": "KUDA",
+                    "arrival": "12:55",
+                    "departure": "12:56",
+                    "halt_time": "1m",
+                    "distance_km": 1070.0
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "13:19",
+                    "departure": "13:20",
+                    "halt_time": "1m",
+                    "distance_km": 1115.0
+                },
+                {
+                    "station_name": "Surathkal",
+                    "station_code": "SL",
+                    "arrival": "14:01",
+                    "departure": "14:02",
+                    "halt_time": "1m",
+                    "distance_km": 1173.0
+                },
+                {
+                    "station_name": "Mangaluru Jn",
+                    "station_code": "MAJN",
+                    "arrival": "15:50",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 1196.0
+                }
+            ]
+        },
+        "12431": {
+            "train_name": "RAJDHANI EXP",
+            "train_number": "12431",
+            "origin": "Thiruvananthapuram Ctrl (TVC)",
+            "destination": "H Nizamuddin (NZM)",
+            "total_distance_km": 3144,
+            "journey_duration": "45h 50m",
+            "total_stops": 21,
+            "intermediate_stops": [
+                {
+                    "station_name": "Trivandrum Cntl",
+                    "station_code": "TVC",
+                    "arrival": "Start",
+                    "departure": "14:40",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Kollam Jn",
+                    "station_code": "QLN",
+                    "arrival": "15:36",
+                    "departure": "15:38",
+                    "halt_time": "2m",
+                    "distance_km": 65.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Alleppey",
+                    "station_code": "ALLP",
+                    "arrival": "16:58",
+                    "departure": "17:00",
+                    "halt_time": "2m",
+                    "distance_km": 149.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ernakulam Jn",
+                    "station_code": "ERS",
+                    "arrival": "18:25",
+                    "departure": "18:30",
+                    "halt_time": "5m",
+                    "distance_km": 206.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thrisur",
+                    "station_code": "TCR",
+                    "arrival": "20:05",
+                    "departure": "20:07",
+                    "halt_time": "2m",
+                    "distance_km": 280.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Shoranur Jn",
+                    "station_code": "SRR",
+                    "arrival": "20:55",
+                    "departure": "21:00",
+                    "halt_time": "5m",
+                    "distance_km": 313.0,
+                    "platform": 7
+                },
+                {
+                    "station_name": "Kozhikkode",
+                    "station_code": "CLT",
+                    "arrival": "22:17",
+                    "departure": "22:20",
+                    "halt_time": "3m",
+                    "distance_km": 399.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Kannur",
+                    "station_code": "CAN",
+                    "arrival": "23:37",
+                    "departure": "23:40",
+                    "halt_time": "3m",
+                    "distance_km": 488.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kasaragod",
+                    "station_code": "KGQ",
+                    "arrival": "00:44",
+                    "departure": "00:45",
+                    "halt_time": "1m",
+                    "distance_km": 574.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Mangaluru Jn",
+                    "station_code": "MAJN",
+                    "arrival": "01:45",
+                    "departure": "01:50",
+                    "halt_time": "5m",
+                    "distance_km": 621.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "03:20",
+                    "departure": "03:22",
+                    "halt_time": "2m",
+                    "distance_km": 702.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "06:18",
+                    "departure": "06:20",
+                    "halt_time": "2m",
+                    "distance_km": 969.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "07:50",
+                    "departure": "08:00",
+                    "halt_time": "10m",
+                    "distance_km": 1051.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "12:40",
+                    "departure": "12:45",
+                    "halt_time": "5m",
+                    "distance_km": 1386.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "17:52",
+                    "departure": "17:55",
+                    "halt_time": "3m",
+                    "distance_km": 1748.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Vasai Road",
+                    "station_code": "BSR",
+                    "arrival": "19:35",
+                    "departure": "19:40",
+                    "halt_time": "5m",
+                    "distance_km": 1815.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Surat",
+                    "station_code": "ST",
+                    "arrival": "22:15",
+                    "departure": "22:18",
+                    "halt_time": "3m",
+                    "distance_km": 2030.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vadodara Jn",
+                    "station_code": "BRC",
+                    "arrival": "23:51",
+                    "departure": "23:59",
+                    "halt_time": "8m",
+                    "distance_km": 2159.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Ratlam Jn",
+                    "station_code": "RTM",
+                    "arrival": "03:47",
+                    "departure": "03:50",
+                    "halt_time": "3m",
+                    "distance_km": 2421.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Kota Jn",
+                    "station_code": "KOTA",
+                    "arrival": "06:45",
+                    "departure": "06:55",
+                    "halt_time": "10m",
+                    "distance_km": 2687.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "H Nizamuddin",
+                    "station_code": "NZM",
+                    "arrival": "12:30",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 3144.0,
+                    "platform": 3
+                }
+            ]
+        },
+        "12618": {
+            "train_name": "Mngla Lksdp Exp",
+            "train_number": "12618",
+            "origin": "H Nizamuddin (NZM)",
+            "destination": "Ernakulam Jn (ERS)",
+            "total_distance_km": 3066,
+            "journey_duration": "50h 25m",
+            "total_stops": 43,
+            "intermediate_stops": [
+                {
+                    "station_name": "H Nizamuddin",
+                    "station_code": "NZM",
+                    "arrival": "Start",
+                    "departure": "05:35",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Faridabad",
+                    "station_code": "FDB",
+                    "arrival": "05:52",
+                    "departure": "05:54",
+                    "halt_time": "2m",
+                    "distance_km": 21.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Mathura Jn",
+                    "station_code": "MTJ",
+                    "arrival": "07:40",
+                    "departure": "07:45",
+                    "halt_time": "5m",
+                    "distance_km": 134.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Agra Cantt",
+                    "station_code": "AGC",
+                    "arrival": "08:20",
+                    "departure": "08:25",
+                    "halt_time": "5m",
+                    "distance_km": 188.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Morena",
+                    "station_code": "MRA",
+                    "arrival": "10:03",
+                    "departure": "10:05",
+                    "halt_time": "2m",
+                    "distance_km": 268.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Gwalior Jn",
+                    "station_code": "GWL",
+                    "arrival": "10:31",
+                    "departure": "10:33",
+                    "halt_time": "2m",
+                    "distance_km": 306.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "V Lakshmibai Jhansi Jhs",
+                    "station_code": "VGLJ",
+                    "arrival": "12:00",
+                    "departure": "12:08",
+                    "halt_time": "8m",
+                    "distance_km": 403.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Bina Jn",
+                    "station_code": "BINA",
+                    "arrival": "14:25",
+                    "departure": "14:30",
+                    "halt_time": "5m",
+                    "distance_km": 556.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Bhopal Jn",
+                    "station_code": "BPL",
+                    "arrival": "16:20",
+                    "departure": "16:25",
+                    "halt_time": "5m",
+                    "distance_km": 694.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Itarsi Jn",
+                    "station_code": "ET",
+                    "arrival": "18:20",
+                    "departure": "18:25",
+                    "halt_time": "5m",
+                    "distance_km": 786.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Khandwa",
+                    "station_code": "KNW",
+                    "arrival": "20:53",
+                    "departure": "20:55",
+                    "halt_time": "2m",
+                    "distance_km": 969.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Burhanpur",
+                    "station_code": "BAU",
+                    "arrival": "21:43",
+                    "departure": "21:45",
+                    "halt_time": "2m",
+                    "distance_km": 1038.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Bhusaval Jn",
+                    "station_code": "BSL",
+                    "arrival": "22:40",
+                    "departure": "22:45",
+                    "halt_time": "5m",
+                    "distance_km": 1093.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Manmad Jn",
+                    "station_code": "MMR",
+                    "arrival": "01:03",
+                    "departure": "01:05",
+                    "halt_time": "2m",
+                    "distance_km": 1277.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Nashik Road",
+                    "station_code": "NK",
+                    "arrival": "02:05",
+                    "departure": "02:08",
+                    "halt_time": "3m",
+                    "distance_km": 1350.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Kalyan Jn",
+                    "station_code": "KYN",
+                    "arrival": "05:17",
+                    "departure": "05:20",
+                    "halt_time": "3m",
+                    "distance_km": 1484.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "06:30",
+                    "departure": "06:35",
+                    "halt_time": "5m",
+                    "distance_km": 1520.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "10:24",
+                    "departure": "10:26",
+                    "halt_time": "2m",
+                    "distance_km": 1735.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "11:00",
+                    "departure": "11:02",
+                    "halt_time": "2m",
+                    "distance_km": 1776.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "12:40",
+                    "departure": "12:45",
+                    "halt_time": "5m",
+                    "distance_km": 1882.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "15:00",
+                    "departure": "15:02",
+                    "halt_time": "2m",
+                    "distance_km": 2038.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "16:30",
+                    "departure": "16:32",
+                    "halt_time": "2m",
+                    "distance_km": 2152.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "17:50",
+                    "departure": "18:00",
+                    "halt_time": "10m",
+                    "distance_km": 2217.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "19:00",
+                    "departure": "19:02",
+                    "halt_time": "2m",
+                    "distance_km": 2299.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kumta",
+                    "station_code": "KT",
+                    "arrival": "19:48",
+                    "departure": "19:50",
+                    "halt_time": "2m",
+                    "distance_km": 2376.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Bhatkal",
+                    "station_code": "BTJL",
+                    "arrival": "20:48",
+                    "departure": "20:50",
+                    "halt_time": "2m",
+                    "distance_km": 2452.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kundapura",
+                    "station_code": "KUDA",
+                    "arrival": "21:40",
+                    "departure": "21:42",
+                    "halt_time": "2m",
+                    "distance_km": 2521.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "22:10",
+                    "departure": "22:12",
+                    "halt_time": "2m",
+                    "distance_km": 2566.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Mangaluru Jn",
+                    "station_code": "MAJN",
+                    "arrival": "23:35",
+                    "departure": "23:40",
+                    "halt_time": "5m",
+                    "distance_km": 2647.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Kasaragod",
+                    "station_code": "KGQ",
+                    "arrival": "00:33",
+                    "departure": "00:35",
+                    "halt_time": "2m",
+                    "distance_km": 2699.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Nileshwar",
+                    "station_code": "NLE",
+                    "arrival": "01:04",
+                    "departure": "01:05",
+                    "halt_time": "1m",
+                    "distance_km": 2731.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Payyanur",
+                    "station_code": "PAY",
+                    "arrival": "01:24",
+                    "departure": "01:25",
+                    "halt_time": "1m",
+                    "distance_km": 2751.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kannur",
+                    "station_code": "CAN",
+                    "arrival": "02:07",
+                    "departure": "02:10",
+                    "halt_time": "3m",
+                    "distance_km": 2784.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Thalassery",
+                    "station_code": "TLY",
+                    "arrival": "02:28",
+                    "departure": "02:30",
+                    "halt_time": "2m",
+                    "distance_km": 2805.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Vadakara",
+                    "station_code": "BDJ",
+                    "arrival": "02:49",
+                    "departure": "02:50",
+                    "halt_time": "1m",
+                    "distance_km": 2827.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Quilandi",
+                    "station_code": "QLD",
+                    "arrival": "03:09",
+                    "departure": "03:10",
+                    "halt_time": "1m",
+                    "distance_km": 2849.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kozhikkode",
+                    "station_code": "CLT",
+                    "arrival": "03:32",
+                    "departure": "03:35",
+                    "halt_time": "3m",
+                    "distance_km": 2873.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Tirur",
+                    "station_code": "TIR",
+                    "arrival": "04:28",
+                    "departure": "04:30",
+                    "halt_time": "2m",
+                    "distance_km": 2914.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Pattambi",
+                    "station_code": "PTB",
+                    "arrival": "04:59",
+                    "departure": "05:00",
+                    "halt_time": "1m",
+                    "distance_km": 2948.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Shoranur Jn",
+                    "station_code": "SRR",
+                    "arrival": "05:25",
+                    "departure": "05:30",
+                    "halt_time": "5m",
+                    "distance_km": 2959.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Thrissur",
+                    "station_code": "TCR",
+                    "arrival": "06:10",
+                    "departure": "06:13",
+                    "halt_time": "3m",
+                    "distance_km": 2992.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Aluva",
+                    "station_code": "AWY",
+                    "arrival": "07:01",
+                    "departure": "07:03",
+                    "halt_time": "2m",
+                    "distance_km": 3047.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ernakulam Jn",
+                    "station_code": "ERS",
+                    "arrival": "08:00",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 3066.0,
+                    "platform": 4
+                }
+            ]
+        },
+        "16346": {
+            "train_name": "NETHRAVATHI EXP",
+            "train_number": "16346",
+            "origin": "Trivandrum Cntl (TVC)",
+            "destination": "Lokmanyatilak T (LTT)",
+            "total_distance_km": 1800,
+            "journey_duration": "31h 50m",
+            "total_stops": 50,
+            "intermediate_stops": [
+                {
+                    "station_name": "Trivandrum Cntl",
+                    "station_code": "TVC",
+                    "arrival": "Start",
+                    "departure": "09:15",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Varkalasivagiri",
+                    "station_code": "VAK",
+                    "arrival": "09:54",
+                    "departure": "09:55",
+                    "halt_time": "1m",
+                    "distance_km": 41.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kollam Jn",
+                    "station_code": "QLN",
+                    "arrival": "10:22",
+                    "departure": "10:25",
+                    "halt_time": "3m",
+                    "distance_km": 65.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Karunagappalli",
+                    "station_code": "KPY",
+                    "arrival": "10:50",
+                    "departure": "10:51",
+                    "halt_time": "1m",
+                    "distance_km": 92.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kayankulam Jn",
+                    "station_code": "KYJ",
+                    "arrival": "11:08",
+                    "departure": "11:10",
+                    "halt_time": "2m",
+                    "distance_km": 106.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Harippad",
+                    "station_code": "HAD",
+                    "arrival": "11:24",
+                    "departure": "11:25",
+                    "halt_time": "1m",
+                    "distance_km": 119.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ambalappuzha",
+                    "station_code": "AMPA",
+                    "arrival": "11:44",
+                    "departure": "11:45",
+                    "halt_time": "1m",
+                    "distance_km": 137.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Alleppey",
+                    "station_code": "ALLP",
+                    "arrival": "11:54",
+                    "departure": "11:57",
+                    "halt_time": "3m",
+                    "distance_km": 149.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Cherthala",
+                    "station_code": "SRTL",
+                    "arrival": "12:17",
+                    "departure": "12:18",
+                    "halt_time": "1m",
+                    "distance_km": 173.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Ernakulam Jn",
+                    "station_code": "ERS",
+                    "arrival": "13:10",
+                    "departure": "13:15",
+                    "halt_time": "5m",
+                    "distance_km": 206.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Aluva",
+                    "station_code": "AWY",
+                    "arrival": "13:38",
+                    "departure": "13:40",
+                    "halt_time": "2m",
+                    "distance_km": 225.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Divine Nagar",
+                    "station_code": "DINR",
+                    "arrival": "14:00",
+                    "departure": "14:01",
+                    "halt_time": "1m",
+                    "distance_km": 247.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Thrisur",
+                    "station_code": "TCR",
+                    "arrival": "14:30",
+                    "departure": "14:33",
+                    "halt_time": "3m",
+                    "distance_km": 280.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Shoranur Jn",
+                    "station_code": "SRR",
+                    "arrival": "15:40",
+                    "departure": "15:45",
+                    "halt_time": "5m",
+                    "distance_km": 313.0,
+                    "platform": 7
+                },
+                {
+                    "station_name": "Kuttippuram",
+                    "station_code": "KTU",
+                    "arrival": "16:04",
+                    "departure": "16:05",
+                    "halt_time": "1m",
+                    "distance_km": 343.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Tirur",
+                    "station_code": "TIR",
+                    "arrival": "16:18",
+                    "departure": "16:20",
+                    "halt_time": "2m",
+                    "distance_km": 358.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Parappanangadi",
+                    "station_code": "PGI",
+                    "arrival": "16:34",
+                    "departure": "16:35",
+                    "halt_time": "1m",
+                    "distance_km": 374.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kozhikode",
+                    "station_code": "CLT",
+                    "arrival": "17:07",
+                    "departure": "17:10",
+                    "halt_time": "3m",
+                    "distance_km": 399.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Vadakara",
+                    "station_code": "BDJ",
+                    "arrival": "17:48",
+                    "departure": "17:50",
+                    "halt_time": "2m",
+                    "distance_km": 445.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Thalassery",
+                    "station_code": "TLY",
+                    "arrival": "18:08",
+                    "departure": "18:10",
+                    "halt_time": "2m",
+                    "distance_km": 467.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kannur",
+                    "station_code": "CAN",
+                    "arrival": "18:37",
+                    "departure": "18:40",
+                    "halt_time": "3m",
+                    "distance_km": 488.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kannapuram",
+                    "station_code": "KPQ",
+                    "arrival": "18:52",
+                    "departure": "18:53",
+                    "halt_time": "1m",
+                    "distance_km": 502.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Payyanur",
+                    "station_code": "PAY",
+                    "arrival": "18:59",
+                    "departure": "19:00",
+                    "halt_time": "1m",
+                    "distance_km": 521.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Charvattur",
+                    "station_code": "CHV",
+                    "arrival": "19:19",
+                    "departure": "19:20",
+                    "halt_time": "1m",
+                    "distance_km": 536.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Nileshwar",
+                    "station_code": "NLE",
+                    "arrival": "19:27",
+                    "departure": "19:28",
+                    "halt_time": "1m",
+                    "distance_km": 541.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kanhangad",
+                    "station_code": "KZE",
+                    "arrival": "19:43",
+                    "departure": "19:45",
+                    "halt_time": "2m",
+                    "distance_km": 551.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kasaragod",
+                    "station_code": "KGQ",
+                    "arrival": "20:03",
+                    "departure": "20:05",
+                    "halt_time": "2m",
+                    "distance_km": 574.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Mangaluru Jn",
+                    "station_code": "MAJN",
+                    "arrival": "21:30",
+                    "departure": "21:35",
+                    "halt_time": "5m",
+                    "distance_km": 625.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Surathkal",
+                    "station_code": "SL",
+                    "arrival": "22:35",
+                    "departure": "22:37",
+                    "halt_time": "2m",
+                    "distance_km": 647.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "23:20",
+                    "departure": "23:22",
+                    "halt_time": "2m",
+                    "distance_km": 706.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kundapura",
+                    "station_code": "KUDA",
+                    "arrival": "23:48",
+                    "departure": "23:50",
+                    "halt_time": "2m",
+                    "distance_km": 751.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Byndoor Mookambika Road",
+                    "station_code": "BYNR",
+                    "arrival": "00:28",
+                    "departure": "00:30",
+                    "halt_time": "2m",
+                    "distance_km": 798.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Bhatkal",
+                    "station_code": "BTJL",
+                    "arrival": "00:44",
+                    "departure": "00:46",
+                    "halt_time": "2m",
+                    "distance_km": 820.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Murdeshwar",
+                    "station_code": "MRDW",
+                    "arrival": "00:58",
+                    "departure": "01:00",
+                    "halt_time": "2m",
+                    "distance_km": 840.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kumta",
+                    "station_code": "KT",
+                    "arrival": "01:34",
+                    "departure": "01:36",
+                    "halt_time": "2m",
+                    "distance_km": 896.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "02:28",
+                    "departure": "02:30",
+                    "halt_time": "2m",
+                    "distance_km": 973.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Cancona",
+                    "station_code": "CNO",
+                    "arrival": "03:00",
+                    "departure": "03:02",
+                    "halt_time": "2m",
+                    "distance_km": 1010.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "03:50",
+                    "departure": "04:00",
+                    "halt_time": "10m",
+                    "distance_km": 1055.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karmali",
+                    "station_code": "KRMI",
+                    "arrival": "04:32",
+                    "departure": "04:34",
+                    "halt_time": "2m",
+                    "distance_km": 1095.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "04:54",
+                    "departure": "04:56",
+                    "halt_time": "2m",
+                    "distance_km": 1120.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "05:50",
+                    "departure": "05:52",
+                    "halt_time": "2m",
+                    "distance_km": 1195.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Rajapur Road",
+                    "station_code": "RAJP",
+                    "arrival": "07:38",
+                    "departure": "07:40",
+                    "halt_time": "2m",
+                    "distance_km": 1303.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "09:00",
+                    "departure": "09:05",
+                    "halt_time": "5m",
+                    "distance_km": 1390.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Sangameshwar Road",
+                    "station_code": "SGR",
+                    "arrival": "09:50",
+                    "departure": "09:52",
+                    "halt_time": "2m",
+                    "distance_km": 1436.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "10:40",
+                    "departure": "10:42",
+                    "halt_time": "2m",
+                    "distance_km": 1496.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "11:20",
+                    "departure": "11:22",
+                    "halt_time": "2m",
+                    "distance_km": 1537.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Roha",
+                    "station_code": "ROHA",
+                    "arrival": "13:35",
+                    "departure": "13:40",
+                    "halt_time": "5m",
+                    "distance_km": 1675.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "14:52",
+                    "departure": "14:55",
+                    "halt_time": "3m",
+                    "distance_km": 1752.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Thane",
+                    "station_code": "TNA",
+                    "arrival": "15:47",
+                    "departure": "15:50",
+                    "halt_time": "3m",
+                    "distance_km": 1785.0,
+                    "platform": 8
+                },
+                {
+                    "station_name": "Lokmanyatilak T",
+                    "station_code": "LTT",
+                    "arrival": "17:05",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 1801.0,
+                    "platform": 1
+                }
+            ]
+        },
+        "19259": {
+            "train_name": "KCVL BVC EXPRES",
+            "train_number": "19259",
+            "origin": "Thiruvananthapuram North (Kochuveli) (TVCN)",
+            "destination": "Bhavnagar Terminus (BVC)",
+            "total_distance_km": 2570,
+            "journey_duration": "44h 40m",
+            "total_stops": 41,
+            "intermediate_stops": [
+                {
+                    "station_name": "Thiruvananthapuram North",
+                    "station_code": "TVCN",
+                    "arrival": "Start",
+                    "departure": "15:45",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Kollam Jn",
+                    "station_code": "QLN",
+                    "arrival": "16:42",
+                    "departure": "16:45",
+                    "halt_time": "3m",
+                    "distance_km": 60.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Kayankulam Jn",
+                    "station_code": "KYJ",
+                    "arrival": "17:20",
+                    "departure": "17:22",
+                    "halt_time": "2m",
+                    "distance_km": 101.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Chengannur",
+                    "station_code": "CNGR",
+                    "arrival": "17:43",
+                    "departure": "17:45",
+                    "halt_time": "2m",
+                    "distance_km": 121.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Tiruvalla",
+                    "station_code": "TRVL",
+                    "arrival": "17:54",
+                    "departure": "17:55",
+                    "halt_time": "1m",
+                    "distance_km": 130.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kottayam",
+                    "station_code": "KTYM",
+                    "arrival": "18:32",
+                    "departure": "18:35",
+                    "halt_time": "3m",
+                    "distance_km": 156.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ernakulam Town",
+                    "station_code": "ERN",
+                    "arrival": "20:15",
+                    "departure": "20:20",
+                    "halt_time": "5m",
+                    "distance_km": 218.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Aluva",
+                    "station_code": "AWY",
+                    "arrival": "20:45",
+                    "departure": "20:47",
+                    "halt_time": "2m",
+                    "distance_km": 235.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Thrissur",
+                    "station_code": "TCR",
+                    "arrival": "21:45",
+                    "departure": "21:48",
+                    "halt_time": "3m",
+                    "distance_km": 289.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Shoranur Jn",
+                    "station_code": "SRR",
+                    "arrival": "22:35",
+                    "departure": "22:40",
+                    "halt_time": "5m",
+                    "distance_km": 322.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Tirur",
+                    "station_code": "TIR",
+                    "arrival": "23:24",
+                    "departure": "23:25",
+                    "halt_time": "1m",
+                    "distance_km": 367.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kozhikode",
+                    "station_code": "CLT",
+                    "arrival": "00:07",
+                    "departure": "00:10",
+                    "halt_time": "3m",
+                    "distance_km": 408.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Thalassery",
+                    "station_code": "TLY",
+                    "arrival": "01:09",
+                    "departure": "01:10",
+                    "halt_time": "1m",
+                    "distance_km": 476.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kannur",
+                    "station_code": "CAN",
+                    "arrival": "01:37",
+                    "departure": "01:40",
+                    "halt_time": "3m",
+                    "distance_km": 497.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Payyanur",
+                    "station_code": "PAY",
+                    "arrival": "02:04",
+                    "departure": "02:05",
+                    "halt_time": "1m",
+                    "distance_km": 530.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kasaragod",
+                    "station_code": "KGQ",
+                    "arrival": "02:49",
+                    "departure": "02:50",
+                    "halt_time": "1m",
+                    "distance_km": 583.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Mangaluru Jn",
+                    "station_code": "MAJN",
+                    "arrival": "04:05",
+                    "departure": "04:10",
+                    "halt_time": "5m",
+                    "distance_km": 634.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "05:30",
+                    "departure": "05:32",
+                    "halt_time": "2m",
+                    "distance_km": 715.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Byndoor Mookambika Road",
+                    "station_code": "BYNR",
+                    "arrival": "07:03",
+                    "departure": "07:05",
+                    "halt_time": "2m",
+                    "distance_km": 807.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kumta",
+                    "station_code": "KT",
+                    "arrival": "08:30",
+                    "departure": "08:32",
+                    "halt_time": "2m",
+                    "distance_km": 906.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "09:18",
+                    "departure": "09:20",
+                    "halt_time": "2m",
+                    "distance_km": 983.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "10:40",
+                    "departure": "10:50",
+                    "halt_time": "10m",
+                    "distance_km": 1065.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "11:48",
+                    "departure": "11:50",
+                    "halt_time": "2m",
+                    "distance_km": 1129.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sindhudurg",
+                    "station_code": "SNDD",
+                    "arrival": "12:50",
+                    "departure": "12:52",
+                    "halt_time": "2m",
+                    "distance_km": 1219.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "16:05",
+                    "departure": "16:10",
+                    "halt_time": "5m",
+                    "distance_km": 1399.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "17:40",
+                    "departure": "17:42",
+                    "halt_time": "2m",
+                    "distance_km": 1505.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Mangaon",
+                    "station_code": "MNI",
+                    "arrival": "19:20",
+                    "departure": "19:22",
+                    "halt_time": "2m",
+                    "distance_km": 1642.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Roha",
+                    "station_code": "ROHA",
+                    "arrival": "19:55",
+                    "departure": "19:58",
+                    "halt_time": "3m",
+                    "distance_km": 1684.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "21:02",
+                    "departure": "21:05",
+                    "halt_time": "3m",
+                    "distance_km": 1761.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Vasai Road",
+                    "station_code": "BSR",
+                    "arrival": "23:05",
+                    "departure": "23:10",
+                    "halt_time": "5m",
+                    "distance_km": 1829.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Surat",
+                    "station_code": "ST",
+                    "arrival": "02:45",
+                    "departure": "02:50",
+                    "halt_time": "5m",
+                    "distance_km": 2044.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Ankleshwar Jn",
+                    "station_code": "AKV",
+                    "arrival": "03:24",
+                    "departure": "03:26",
+                    "halt_time": "2m",
+                    "distance_km": 2093.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Vadodara Jn",
+                    "station_code": "BRC",
+                    "arrival": "04:41",
+                    "departure": "04:46",
+                    "halt_time": "5m",
+                    "distance_km": 2173.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Anand Jn",
+                    "station_code": "ANND",
+                    "arrival": "05:21",
+                    "departure": "05:23",
+                    "halt_time": "2m",
+                    "distance_km": 2208.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Nadiad Jn",
+                    "station_code": "ND",
+                    "arrival": "05:38",
+                    "departure": "05:40",
+                    "halt_time": "2m",
+                    "distance_km": 2227.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Ahmedabad Jn",
+                    "station_code": "ADI",
+                    "arrival": "06:40",
+                    "departure": "06:45",
+                    "halt_time": "5m",
+                    "distance_km": 2272.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Jorawarnagar Jn",
+                    "station_code": "JVN",
+                    "arrival": "09:10",
+                    "departure": "09:11",
+                    "halt_time": "1m",
+                    "distance_km": 2406.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Botad Jn",
+                    "station_code": "BTD",
+                    "arrival": "10:06",
+                    "departure": "10:10",
+                    "halt_time": "4m",
+                    "distance_km": 2478.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Dhola Jn",
+                    "station_code": "DLJ",
+                    "arrival": "10:43",
+                    "departure": "10:44",
+                    "halt_time": "1m",
+                    "distance_km": 2521.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Sihor Gujarat",
+                    "station_code": "SOJN",
+                    "arrival": "11:15",
+                    "departure": "11:16",
+                    "halt_time": "1m",
+                    "distance_km": 2549.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Bhavnagar Terminus",
+                    "station_code": "BVC",
+                    "arrival": "12:25",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 2570.0,
+                    "platform": "N/A"
+                }
+            ]
+        },
+        "20646": {
+            "train_name": "MAQ-MAO VB EXP",
+            "train_number": "20646",
+            "origin": "Mangaluru Ctrl (MAQ)",
+            "destination": "Madgaon (MAO)",
+            "total_distance_km": 437,
+            "journey_duration": "5h 40m",
+            "total_stops": 4,
+            "intermediate_stops": [
+                {
+                    "station_name": "Mangaluru Ctrl",
+                    "station_code": "MAQ",
+                    "arrival": "Start",
+                    "departure": "08:30",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "09:48",
+                    "departure": "09:50",
+                    "halt_time": "2m",
+                    "distance_km": 87.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "12:38",
+                    "departure": "12:40",
+                    "halt_time": "2m",
+                    "distance_km": 355.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "14:10",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 437.0,
+                    "platform": 1
+                }
+            ]
+        },
+        "20910": {
+            "train_name": "PBR KCVL EXP",
+            "train_number": "20910",
+            "origin": "Porbandar (PBR)",
+            "destination": "Trivandrum Kochuveli (KCVL)",
+            "total_distance_km": 2410,
+            "journey_duration": "47h 5m",
+            "total_stops": 31,
+            "intermediate_stops": [
+                {
+                    "station_name": "Porbandar",
+                    "station_code": "PBR",
+                    "arrival": "Start",
+                    "departure": "18:55",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Wansjaliya Jn",
+                    "station_code": "WSJ",
+                    "arrival": "19:20",
+                    "departure": "19:21",
+                    "halt_time": "1m",
+                    "distance_km": 34.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Jamnagar",
+                    "station_code": "JAM",
+                    "arrival": "21:02",
+                    "departure": "21:07",
+                    "halt_time": "5m",
+                    "distance_km": 132.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Hapa",
+                    "station_code": "HAPA",
+                    "arrival": "21:21",
+                    "departure": "21:23",
+                    "halt_time": "2m",
+                    "distance_km": 141.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Rajkot Jn",
+                    "station_code": "RJT",
+                    "arrival": "22:55",
+                    "departure": "23:00",
+                    "halt_time": "5m",
+                    "distance_km": 217.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Surendranagar",
+                    "station_code": "SUNR",
+                    "arrival": "00:37",
+                    "departure": "00:39",
+                    "halt_time": "2m",
+                    "distance_km": 333.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Viramgam Jn",
+                    "station_code": "VG",
+                    "arrival": "01:45",
+                    "departure": "01:47",
+                    "halt_time": "2m",
+                    "distance_km": 398.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Ahmedabad Jn",
+                    "station_code": "ADI",
+                    "arrival": "02:55",
+                    "departure": "03:00",
+                    "halt_time": "5m",
+                    "distance_km": 464.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Anand Jn",
+                    "station_code": "ANND",
+                    "arrival": "04:18",
+                    "departure": "04:20",
+                    "halt_time": "2m",
+                    "distance_km": 528.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Vadodara Jn",
+                    "station_code": "BRC",
+                    "arrival": "04:56",
+                    "departure": "05:01",
+                    "halt_time": "5m",
+                    "distance_km": 563.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ankleshwar Jn",
+                    "station_code": "AKV",
+                    "arrival": "06:07",
+                    "departure": "06:09",
+                    "halt_time": "2m",
+                    "distance_km": 643.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Surat",
+                    "station_code": "ST",
+                    "arrival": "06:57",
+                    "departure": "07:02",
+                    "halt_time": "5m",
+                    "distance_km": 692.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Palghar",
+                    "station_code": "PLG",
+                    "arrival": "09:13",
+                    "departure": "09:15",
+                    "halt_time": "2m",
+                    "distance_km": 868.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Vasai Road",
+                    "station_code": "BSR",
+                    "arrival": "10:00",
+                    "departure": "10:05",
+                    "halt_time": "5m",
+                    "distance_km": 907.0,
+                    "platform": 7
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "11:25",
+                    "departure": "11:30",
+                    "halt_time": "5m",
+                    "distance_km": 974.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "16:55",
+                    "departure": "17:00",
+                    "halt_time": "5m",
+                    "distance_km": 1337.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "22:50",
+                    "departure": "23:00",
+                    "halt_time": "10m",
+                    "distance_km": 1671.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "23:50",
+                    "departure": "23:52",
+                    "halt_time": "2m",
+                    "distance_km": 1753.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "02:50",
+                    "departure": "02:52",
+                    "halt_time": "2m",
+                    "distance_km": 2020.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Mangaluru Jn",
+                    "station_code": "MAJN",
+                    "arrival": "04:10",
+                    "departure": "04:15",
+                    "halt_time": "5m",
+                    "distance_km": 2102.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kasaragod",
+                    "station_code": "KGQ",
+                    "arrival": "04:54",
+                    "departure": "04:55",
+                    "halt_time": "1m",
+                    "distance_km": 2153.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kannur",
+                    "station_code": "CAN",
+                    "arrival": "06:02",
+                    "departure": "06:05",
+                    "halt_time": "3m",
+                    "distance_km": 2239.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kozhikode",
+                    "station_code": "CLT",
+                    "arrival": "07:22",
+                    "departure": "07:25",
+                    "halt_time": "3m",
+                    "distance_km": 2328.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Tirur",
+                    "station_code": "TIR",
+                    "arrival": "07:58",
+                    "departure": "08:00",
+                    "halt_time": "2m",
+                    "distance_km": 2369.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Shoranur Jn",
+                    "station_code": "SRR",
+                    "arrival": "09:30",
+                    "departure": "09:35",
+                    "halt_time": "5m",
+                    "distance_km": 2414.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Thrissur",
+                    "station_code": "TCR",
+                    "arrival": "10:22",
+                    "departure": "10:25",
+                    "halt_time": "3m",
+                    "distance_km": 2447.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ernakulam Jn",
+                    "station_code": "ERS",
+                    "arrival": "12:30",
+                    "departure": "12:35",
+                    "halt_time": "5m",
+                    "distance_km": 2521.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Alleppey",
+                    "station_code": "ALLP",
+                    "arrival": "14:00",
+                    "departure": "14:03",
+                    "halt_time": "3m",
+                    "distance_km": 2577.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kayankulam Jn",
+                    "station_code": "KYJ",
+                    "arrival": "15:03",
+                    "departure": "15:05",
+                    "halt_time": "2m",
+                    "distance_km": 2621.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Kollam Jn",
+                    "station_code": "QLN",
+                    "arrival": "16:10",
+                    "departure": "16:13",
+                    "halt_time": "3m",
+                    "distance_km": 2662.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Trivandrum Kochuveli",
+                    "station_code": "TVCN",
+                    "arrival": "18:00",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 2721.0,
+                    "platform": 6
+                }
+            ]
+        },
+        "22120": {
+            "train_name": "CSMT TEJAS EXP",
+            "train_number": "22120",
+            "origin": "Madgaon (MAO)",
+            "destination": "Mumbai CSM Terminus (CSMT)",
+            "total_distance_km": 765,
+            "journey_duration": "11h 40m",
+            "total_stops": 9,
+            "intermediate_stops": [
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "Start",
+                    "departure": "12:50",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Karmali",
+                    "station_code": "KRMI",
+                    "arrival": "13:32",
+                    "departure": "13:34",
+                    "halt_time": "2m",
+                    "distance_km": 41.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "15:00",
+                    "departure": "15:02",
+                    "halt_time": "2m",
+                    "distance_km": 140.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "18:05",
+                    "departure": "18:10",
+                    "halt_time": "5m",
+                    "distance_km": 335.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "19:40",
+                    "departure": "19:42",
+                    "halt_time": "2m",
+                    "distance_km": 441.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "22:25",
+                    "departure": "22:27",
+                    "halt_time": "2m",
+                    "distance_km": 697.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Thane",
+                    "station_code": "TNA",
+                    "arrival": "23:05",
+                    "departure": "23:07",
+                    "halt_time": "2m",
+                    "distance_km": 732.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Dadar",
+                    "station_code": "DR",
+                    "arrival": "23:30",
+                    "departure": "23:32",
+                    "halt_time": "2m",
+                    "distance_km": 757.0,
+                    "platform": 12
+                },
+                {
+                    "station_name": "Mumbai CSM Terminus",
+                    "station_code": "CSMT",
+                    "arrival": "00:30",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 765.0,
+                    "platform": 14
+                }
+            ]
+        },
+        "22149": {
+            "train_name": "ERS-PUNE SF EXP",
+            "train_number": "22149",
+            "origin": "Ernakulam Jn (ERS)",
+            "destination": "Pune Jn (PUNE)",
+            "total_distance_km": 1663,
+            "journey_duration": "27h 35m",
+            "total_stops": 19,
+            "intermediate_stops": [
+                {
+                    "station_name": "Ernakulam Jn",
+                    "station_code": "ERS",
+                    "arrival": "Start",
+                    "departure": "02:15",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Thrisur",
+                    "station_code": "TCR",
+                    "arrival": "03:12",
+                    "departure": "03:15",
+                    "halt_time": "3m",
+                    "distance_km": 75.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Shoranur Jn",
+                    "station_code": "SRR",
+                    "arrival": "04:10",
+                    "departure": "04:15",
+                    "halt_time": "5m",
+                    "distance_km": 107.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Tirur",
+                    "station_code": "TIR",
+                    "arrival": "04:54",
+                    "departure": "04:55",
+                    "halt_time": "1m",
+                    "distance_km": 152.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kozhikkode",
+                    "station_code": "CLT",
+                    "arrival": "05:37",
+                    "departure": "05:40",
+                    "halt_time": "3m",
+                    "distance_km": 193.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Thalassery",
+                    "station_code": "TLY",
+                    "arrival": "06:28",
+                    "departure": "06:30",
+                    "halt_time": "2m",
+                    "distance_km": 262.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kannur",
+                    "station_code": "CAN",
+                    "arrival": "07:02",
+                    "departure": "07:05",
+                    "halt_time": "3m",
+                    "distance_km": 283.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kasaragod",
+                    "station_code": "KGQ",
+                    "arrival": "08:14",
+                    "departure": "08:15",
+                    "halt_time": "1m",
+                    "distance_km": 368.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Mangaluru Jn",
+                    "station_code": "MAJN",
+                    "arrival": "09:20",
+                    "departure": "09:25",
+                    "halt_time": "5m",
+                    "distance_km": 415.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "11:00",
+                    "departure": "11:02",
+                    "halt_time": "2m",
+                    "distance_km": 497.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kundapura",
+                    "station_code": "KUDA",
+                    "arrival": "11:36",
+                    "departure": "11:38",
+                    "halt_time": "2m",
+                    "distance_km": 541.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "14:10",
+                    "departure": "14:12",
+                    "halt_time": "2m",
+                    "distance_km": 764.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "15:40",
+                    "departure": "15:50",
+                    "halt_time": "10m",
+                    "distance_km": 846.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "17:20",
+                    "departure": "17:22",
+                    "halt_time": "2m",
+                    "distance_km": 956.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "18:02",
+                    "departure": "18:04",
+                    "halt_time": "2m",
+                    "distance_km": 1024.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "20:20",
+                    "departure": "20:25",
+                    "halt_time": "5m",
+                    "distance_km": 1180.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "22:10",
+                    "departure": "22:12",
+                    "halt_time": "2m",
+                    "distance_km": 1286.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "02:25",
+                    "departure": "02:30",
+                    "halt_time": "5m",
+                    "distance_km": 1543.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Pune Jn",
+                    "station_code": "PUNE",
+                    "arrival": "05:50",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 1663.0,
+                    "platform": 5
+                }
+            ]
+        },
+        "22229": {
+            "train_name": "MAO VANDE BHARAT",
+            "train_number": "22229",
+            "origin": "Mumbai CSM Terminus (CSMT)",
+            "destination": "Madgaon Junction (MAO)",
+            "total_distance_km": 765,
+            "journey_duration": "10h 35m",
+            "total_stops": 9,
+            "intermediate_stops": [
+                {
+                    "station_name": "Mumbai CSM Terminus",
+                    "station_code": "CSMT",
+                    "arrival": "Start",
+                    "departure": "05:25",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 15
+                },
+                {
+                    "station_name": "Dadar",
+                    "station_code": "DR",
+                    "arrival": "05:32",
+                    "departure": "05:34",
+                    "halt_time": "2m",
+                    "distance_km": 9.0,
+                    "platform": 10
+                },
+                {
+                    "station_name": "Thane",
+                    "station_code": "TNA",
+                    "arrival": "05:52",
+                    "departure": "05:54",
+                    "halt_time": "2m",
+                    "distance_km": 34.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "06:25",
+                    "departure": "06:27",
+                    "halt_time": "2m",
+                    "distance_km": 69.0,
+                    "platform": 7
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "08:44",
+                    "departure": "08:46",
+                    "halt_time": "2m",
+                    "distance_km": 284.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "10:40",
+                    "departure": "10:45",
+                    "halt_time": "5m",
+                    "distance_km": 431.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "12:50",
+                    "departure": "12:52",
+                    "halt_time": "2m",
+                    "distance_km": 587.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "14:20",
+                    "departure": "14:22",
+                    "halt_time": "2m",
+                    "distance_km": 701.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "16:00",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 765.0,
+                    "platform": 1
+                }
+            ]
+        },
+        "22907": {
+            "train_name": "MAO HAPA SF EXP",
+            "train_number": "22907",
+            "origin": "Madgaon Junction (MAO)",
+            "destination": "Hapa (HAPA)",
+            "total_distance_km": 1531,
+            "journey_duration": "23h 35m",
+            "total_stops": 18,
+            "intermediate_stops": [
+                {
+                    "station_name": "Madgaon Junction",
+                    "station_code": "MAO",
+                    "arrival": "Start",
+                    "departure": "10:00",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "10:50",
+                    "departure": "10:52",
+                    "halt_time": "2m",
+                    "distance_km": 65.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "12:00",
+                    "departure": "12:02",
+                    "halt_time": "2m",
+                    "distance_km": 140.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "14:45",
+                    "departure": "14:50",
+                    "halt_time": "5m",
+                    "distance_km": 335.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "16:40",
+                    "departure": "16:42",
+                    "halt_time": "2m",
+                    "distance_km": 482.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Panvel Jn",
+                    "station_code": "PNVL",
+                    "arrival": "19:37",
+                    "departure": "19:40",
+                    "halt_time": "3m",
+                    "distance_km": 697.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Vasai Road",
+                    "station_code": "BSR",
+                    "arrival": "21:05",
+                    "departure": "21:10",
+                    "halt_time": "5m",
+                    "distance_km": 764.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Vapi",
+                    "station_code": "VAPI",
+                    "arrival": "22:39",
+                    "departure": "22:41",
+                    "halt_time": "2m",
+                    "distance_km": 887.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Surat",
+                    "station_code": "ST",
+                    "arrival": "23:58",
+                    "departure": "00:03",
+                    "halt_time": "5m",
+                    "distance_km": 979.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Bharuch Jn",
+                    "station_code": "BH",
+                    "arrival": "00:46",
+                    "departure": "00:48",
+                    "halt_time": "2m",
+                    "distance_km": 1038.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Vadodara Jn",
+                    "station_code": "BRC",
+                    "arrival": "01:48",
+                    "departure": "01:53",
+                    "halt_time": "5m",
+                    "distance_km": 1108.0,
+                    "platform": 4
+                },
+                {
+                    "station_name": "Anand Jn",
+                    "station_code": "ANND",
+                    "arrival": "02:27",
+                    "departure": "02:29",
+                    "halt_time": "2m",
+                    "distance_km": 1144.0,
+                    "platform": 3
+                },
+                {
+                    "station_name": "Nadiad Jn",
+                    "station_code": "ND",
+                    "arrival": "02:45",
+                    "departure": "02:47",
+                    "halt_time": "2m",
+                    "distance_km": 1162.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Ahmedabad Jn",
+                    "station_code": "ADI",
+                    "arrival": "03:40",
+                    "departure": "03:45",
+                    "halt_time": "5m",
+                    "distance_km": 1208.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Viramgam Jn",
+                    "station_code": "VG",
+                    "arrival": "04:52",
+                    "departure": "04:54",
+                    "halt_time": "2m",
+                    "distance_km": 1273.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Surendranagar",
+                    "station_code": "SUNR",
+                    "arrival": "06:06",
+                    "departure": "06:08",
+                    "halt_time": "2m",
+                    "distance_km": 1339.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Rajkot Jn",
+                    "station_code": "RJT",
+                    "arrival": "08:02",
+                    "departure": "08:12",
+                    "halt_time": "10m",
+                    "distance_km": 1455.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Hapa",
+                    "station_code": "HAPA",
+                    "arrival": "09:35",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 1531.0,
+                    "platform": 2
+                }
+            ]
+        },
+        "56616": {
+            "train_name": "MAQ-MAO PASSENG",
+            "train_number": "56616",
+            "origin": "Mangaluru Cntl (MAQ)",
+            "destination": "Madgaon (MAO)",
+            "total_distance_km": 319,
+            "journey_duration": "8h 0m",
+            "total_stops": 31,
+            "intermediate_stops": [
+                {
+                    "station_name": "Mangaluru Cntl",
+                    "station_code": "MAQ",
+                    "arrival": "Start",
+                    "departure": "05:30",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Mangaluru Jn",
+                    "station_code": "MAJN",
+                    "arrival": "05:43",
+                    "departure": "05:45",
+                    "halt_time": "2m",
+                    "distance_km": 6.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thokur",
+                    "station_code": "TOK",
+                    "arrival": "06:16",
+                    "departure": "06:17",
+                    "halt_time": "1m",
+                    "distance_km": 22.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Surathkal",
+                    "station_code": "SL",
+                    "arrival": "06:27",
+                    "departure": "06:28",
+                    "halt_time": "1m",
+                    "distance_km": 26.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Mulki",
+                    "station_code": "MULK",
+                    "arrival": "06:40",
+                    "departure": "06:41",
+                    "halt_time": "1m",
+                    "distance_km": 36.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Nandikoor",
+                    "station_code": "NAND",
+                    "arrival": "06:51",
+                    "departure": "06:52",
+                    "halt_time": "1m",
+                    "distance_km": 43.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Padubidri",
+                    "station_code": "PDD",
+                    "arrival": "07:02",
+                    "departure": "07:03",
+                    "halt_time": "1m",
+                    "distance_km": 52.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Innanje",
+                    "station_code": "INJ",
+                    "arrival": "07:14",
+                    "departure": "07:15",
+                    "halt_time": "1m",
+                    "distance_km": 59.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "07:30",
+                    "departure": "07:31",
+                    "halt_time": "1m",
+                    "distance_km": 68.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Barkur",
+                    "station_code": "BKJ",
+                    "arrival": "07:42",
+                    "departure": "07:43",
+                    "halt_time": "1m",
+                    "distance_km": 84.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kundapura",
+                    "station_code": "KUDA",
+                    "arrival": "07:57",
+                    "departure": "07:58",
+                    "halt_time": "1m",
+                    "distance_km": 100.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Senapura",
+                    "station_code": "SEN",
+                    "arrival": "08:15",
+                    "departure": "08:16",
+                    "halt_time": "1m",
+                    "distance_km": 114.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Bijoor",
+                    "station_code": "BIJR",
+                    "arrival": "08:30",
+                    "departure": "08:31",
+                    "halt_time": "1m",
+                    "distance_km": 128.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Mookambika Road",
+                    "station_code": "BYNR",
+                    "arrival": "08:39",
+                    "departure": "08:40",
+                    "halt_time": "1m",
+                    "distance_km": 134.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Shiroor",
+                    "station_code": "SHMI",
+                    "arrival": "08:51",
+                    "departure": "08:52",
+                    "halt_time": "1m",
+                    "distance_km": 142.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Bhatkal",
+                    "station_code": "BTJL",
+                    "arrival": "09:00",
+                    "departure": "09:01",
+                    "halt_time": "1m",
+                    "distance_km": 149.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Chitrapur (h)",
+                    "station_code": "CTTP",
+                    "arrival": "09:10",
+                    "departure": "09:11",
+                    "halt_time": "1m",
+                    "distance_km": 155.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Murdeshwar",
+                    "station_code": "MRDW",
+                    "arrival": "09:21",
+                    "departure": "09:22",
+                    "halt_time": "1m",
+                    "distance_km": 164.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Manki",
+                    "station_code": "MANK",
+                    "arrival": "09:30",
+                    "departure": "09:31",
+                    "halt_time": "1m",
+                    "distance_km": 172.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Honnavar",
+                    "station_code": "HNA",
+                    "arrival": "09:51",
+                    "departure": "09:52",
+                    "halt_time": "1m",
+                    "distance_km": 190.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kumta",
+                    "station_code": "KT",
+                    "arrival": "10:05",
+                    "departure": "10:06",
+                    "halt_time": "1m",
+                    "distance_km": 204.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Mirjan",
+                    "station_code": "MRJN",
+                    "arrival": "10:12",
+                    "departure": "10:13",
+                    "halt_time": "1m",
+                    "distance_km": 210.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Gokarna Road",
+                    "station_code": "GOK",
+                    "arrival": "10:29",
+                    "departure": "10:30",
+                    "halt_time": "1m",
+                    "distance_km": 223.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ankola",
+                    "station_code": "ANKL",
+                    "arrival": "10:42",
+                    "departure": "10:43",
+                    "halt_time": "1m",
+                    "distance_km": 231.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Harwada",
+                    "station_code": "HAA",
+                    "arrival": "11:00",
+                    "departure": "11:01",
+                    "halt_time": "1m",
+                    "distance_km": 245.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "11:14",
+                    "departure": "11:15",
+                    "halt_time": "1m",
+                    "distance_km": 259.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Asnoti",
+                    "station_code": "AT",
+                    "arrival": "11:24",
+                    "departure": "11:25",
+                    "halt_time": "1m",
+                    "distance_km": 266.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Loliem",
+                    "station_code": "LOL",
+                    "arrival": "11:40",
+                    "departure": "11:41",
+                    "halt_time": "1m",
+                    "distance_km": 276.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Cancona",
+                    "station_code": "CNO",
+                    "arrival": "11:50",
+                    "departure": "11:51",
+                    "halt_time": "1m",
+                    "distance_km": 286.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Balli",
+                    "station_code": "BLLI",
+                    "arrival": "12:20",
+                    "departure": "12:21",
+                    "halt_time": "1m",
+                    "distance_km": 303.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Madgaon Jn",
+                    "station_code": "MAO",
+                    "arrival": "13:30",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 319.0,
+                    "platform": 1
+                }
+            ]
+        },
+        "09058": {
+            "train_name": "MAJN-UDN SPL",
+            "train_number": "09058",
+            "origin": "Mangaluru Jn (MAJN)",
+            "destination": "Udhna Jn (UDN)",
+            "total_distance_km": 1406,
+            "journey_duration": "24h 55m",
+            "total_stops": 37,
+            "intermediate_stops": [
+                {
+                    "station_name": "Mangaluru Jn",
+                    "station_code": "MAJN",
+                    "arrival": "Start",
+                    "departure": "22:10",
+                    "halt_time": "-",
+                    "distance_km": 0.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Surathkal",
+                    "station_code": "SL",
+                    "arrival": "23:22",
+                    "departure": "23:24",
+                    "halt_time": "2m",
+                    "distance_km": 23.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Mulki",
+                    "station_code": "MULK",
+                    "arrival": "23:32",
+                    "departure": "23:34",
+                    "halt_time": "2m",
+                    "distance_km": 36.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Udupi",
+                    "station_code": "UD",
+                    "arrival": "00:10",
+                    "departure": "00:12",
+                    "halt_time": "2m",
+                    "distance_km": 82.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kundapura",
+                    "station_code": "KUDA",
+                    "arrival": "00:32",
+                    "departure": "00:34",
+                    "halt_time": "2m",
+                    "distance_km": 127.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Mookambika Road",
+                    "station_code": "BYNR",
+                    "arrival": "01:00",
+                    "departure": "01:02",
+                    "halt_time": "2m",
+                    "distance_km": 174.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Bhatkal",
+                    "station_code": "BTJL",
+                    "arrival": "01:12",
+                    "departure": "01:14",
+                    "halt_time": "2m",
+                    "distance_km": 196.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Murdeshwar",
+                    "station_code": "MRDW",
+                    "arrival": "01:34",
+                    "departure": "01:36",
+                    "halt_time": "2m",
+                    "distance_km": 216.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kumta",
+                    "station_code": "KT",
+                    "arrival": "02:18",
+                    "departure": "02:20",
+                    "halt_time": "2m",
+                    "distance_km": 272.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Gokarna Road",
+                    "station_code": "GOK",
+                    "arrival": "02:44",
+                    "departure": "02:46",
+                    "halt_time": "2m",
+                    "distance_km": 299.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Ankola",
+                    "station_code": "ANKL",
+                    "arrival": "02:56",
+                    "departure": "02:58",
+                    "halt_time": "2m",
+                    "distance_km": 310.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karwar",
+                    "station_code": "KAWR",
+                    "arrival": "03:30",
+                    "departure": "03:32",
+                    "halt_time": "2m",
+                    "distance_km": 349.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Cancona",
+                    "station_code": "CNO",
+                    "arrival": "04:10",
+                    "departure": "04:12",
+                    "halt_time": "2m",
+                    "distance_km": 385.0,
+                    "platform": "N/A"
+                },
+                {
+                    "station_name": "Madgaon",
+                    "station_code": "MAO",
+                    "arrival": "05:10",
+                    "departure": "05:20",
+                    "halt_time": "10m",
+                    "distance_km": 431.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Karmali",
+                    "station_code": "KRMI",
+                    "arrival": "05:50",
+                    "departure": "05:52",
+                    "halt_time": "2m",
+                    "distance_km": 471.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Thivim",
+                    "station_code": "THVM",
+                    "arrival": "06:12",
+                    "departure": "06:14",
+                    "halt_time": "2m",
+                    "distance_km": 496.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sawantwadi Road",
+                    "station_code": "SWV",
+                    "arrival": "06:40",
+                    "departure": "06:42",
+                    "halt_time": "2m",
+                    "distance_km": 541.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kudal",
+                    "station_code": "KUDL",
+                    "arrival": "07:10",
+                    "departure": "07:12",
+                    "halt_time": "2m",
+                    "distance_km": 570.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Sindhudurg",
+                    "station_code": "SNDD",
+                    "arrival": "07:22",
+                    "departure": "07:24",
+                    "halt_time": "2m",
+                    "distance_km": 585.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Kankavali",
+                    "station_code": "KKW",
+                    "arrival": "07:44",
+                    "departure": "07:46",
+                    "halt_time": "2m",
+                    "distance_km": 610.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vaibhavwadi Rd",
+                    "station_code": "VBW",
+                    "arrival": "08:20",
+                    "departure": "08:22",
+                    "halt_time": "2m",
+                    "distance_km": 653.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Rajapur Road",
+                    "station_code": "RAJP",
+                    "arrival": "08:40",
+                    "departure": "08:42",
+                    "halt_time": "2m",
+                    "distance_km": 676.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Ratnagiri",
+                    "station_code": "RN",
+                    "arrival": "10:05",
+                    "departure": "10:10",
+                    "halt_time": "5m",
+                    "distance_km": 766.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Sangameshwar",
+                    "station_code": "SGR",
+                    "arrival": "11:00",
+                    "departure": "11:02",
+                    "halt_time": "2m",
+                    "distance_km": 812.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Savarda",
+                    "station_code": "SVX",
+                    "arrival": "11:30",
+                    "departure": "11:32",
+                    "halt_time": "2m",
+                    "distance_km": 846.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Chiplun",
+                    "station_code": "CHI",
+                    "arrival": "11:44",
+                    "departure": "11:54",
+                    "halt_time": "10m",
+                    "distance_km": 872.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Khed",
+                    "station_code": "KHED",
+                    "arrival": "12:40",
+                    "departure": "12:42",
+                    "halt_time": "2m",
+                    "distance_km": 913.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Mangaon",
+                    "station_code": "MNI",
+                    "arrival": "14:48",
+                    "departure": "14:50",
+                    "halt_time": "2m",
+                    "distance_km": 1008.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Roha",
+                    "station_code": "ROHA",
+                    "arrival": "15:35",
+                    "departure": "15:40",
+                    "halt_time": "5m",
+                    "distance_km": 1051.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Pen",
+                    "station_code": "PEN",
+                    "arrival": "16:10",
+                    "departure": "16:12",
+                    "halt_time": "2m",
+                    "distance_km": 1092.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Panvel",
+                    "station_code": "PNVL",
+                    "arrival": "16:50",
+                    "departure": "16:55",
+                    "halt_time": "5m",
+                    "distance_km": 1128.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Bhiwandi Road",
+                    "station_code": "BIRD",
+                    "arrival": "17:48",
+                    "departure": "17:50",
+                    "halt_time": "2m",
+                    "distance_km": 1168.0,
+                    "platform": 5
+                },
+                {
+                    "station_name": "Vasai Road",
+                    "station_code": "BSR",
+                    "arrival": "18:55",
+                    "departure": "19:00",
+                    "halt_time": "5m",
+                    "distance_km": 1195.0,
+                    "platform": 6
+                },
+                {
+                    "station_name": "Palghar",
+                    "station_code": "PLG",
+                    "arrival": "19:42",
+                    "departure": "19:44",
+                    "halt_time": "2m",
+                    "distance_km": 1234.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Vapi",
+                    "station_code": "VAPI",
+                    "arrival": "20:40",
+                    "departure": "20:42",
+                    "halt_time": "2m",
+                    "distance_km": 1318.0,
+                    "platform": 1
+                },
+                {
+                    "station_name": "Valsad",
+                    "station_code": "BL",
+                    "arrival": "21:03",
+                    "departure": "21:05",
+                    "halt_time": "2m",
+                    "distance_km": 1342.0,
+                    "platform": 2
+                },
+                {
+                    "station_name": "Udhna Jn",
+                    "station_code": "UDN",
+                    "arrival": "23:05",
+                    "departure": "Ends",
+                    "halt_time": "-",
+                    "distance_km": 1406.0,
+                    "platform": 5
+                }
+            ]
+        },
+        "SHRN-KR-GARUD": {
+            "train_name": "SHRN-KR-GARUD",
+            "train_number": "SHRN-KR-GARUD",
+            "origin": "Not available",
+            "destination": "Not available",
+            "total_distance_km": "N/A",
+            "journey_duration": "N/A",
+            "total_stops": "N/A",
+            "intermediate_stops": "Timetable not publicly available for this goods train."
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Radio, AlertTriangle, Clock, Settings, Phone, Zap, MapPin, Navigation } from 'lucide-react';
+import { X, Radio, AlertTriangle, Clock, Phone, Zap, MapPin, Navigation, MessageSquare } from 'lucide-react';
 import { Train } from '../utils/dataTransform';
 import { apiService } from '../services/apiService';
 
@@ -24,10 +24,11 @@ interface BlockSection {
 }
 
 const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose }) => {
-  const [activeView, setActiveView] = useState<'overview' | 'timetable' | 'signals' | 'communication'>('overview');
+  const [activeView, setActiveView] = useState<'overview' | 'timetable' | 'signals' | 'communication' | 'station-alert'>('overview');
   const [trainDetail, setTrainDetail] = useState<any>(null);
   const [loading, setLoading] = useState(true);
-  const [blockSections, setBlockSections] = useState<BlockSection[]>([
+  // Removed unused blockSections state
+  const [blockSections] = useState<BlockSection[]>([
     {
       id: 'block-1',
       name: 'STATION SECTION A',
@@ -61,7 +62,7 @@ const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose })
     }
   ]);
 
-  const [stationMasterActions, setStationMasterActions] = useState([
+  const [stationMasterActions] = useState([
     { id: 1, action: `Train ${train.id} status updated`, time: new Date().toLocaleTimeString(), status: 'completed' },
     { id: 2, action: `Current location: ${train.currentLocation}`, time: new Date().toLocaleTimeString(), status: 'active' },
     { id: 3, action: `Direction: ${train.direction?.toUpperCase()}`, time: new Date().toLocaleTimeString(), status: 'active' }
@@ -83,33 +84,7 @@ const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose })
     fetchTrainDetail();
   }, [train.id]);
 
-  const toggleSignal = (blockId: string, signalId: string) => {
-    setBlockSections(prev => prev.map(block => {
-      if (block.id === blockId) {
-        return {
-          ...block,
-          signals: block.signals.map(signal => {
-            if (signal.id === signalId) {
-              const newStatus = signal.status === 'RED' ? 'GREEN' : 
-                              signal.status === 'GREEN' ? 'YELLOW' : 'RED';
-              return { ...signal, status: newStatus };
-            }
-            return signal;
-          })
-        };
-      }
-      return block;
-    }));
-  };
-
-  const getSignalColor = (status: string) => {
-    switch (status) {
-      case 'GREEN': return '#10B981';
-      case 'RED': return '#EF4444';
-      case 'YELLOW': return '#F59E0B';
-      default: return '#6B7280';
-    }
-  };
+  // Removed unused functions toggleSignal and getSignalColor
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
@@ -149,7 +124,8 @@ const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose })
             { id: 'overview', label: 'Train Overview', icon: Navigation },
             { id: 'timetable', label: 'Timetable', icon: Clock },
             { id: 'signals', label: 'Signal Control', icon: Zap },
-            { id: 'communication', label: 'Communication', icon: Phone }
+            { id: 'communication', label: 'Communication', icon: Phone },
+            { id: 'station-alert', label: 'Station Alert', icon: MessageSquare }
           ].map(tab => (
             <button
               key={tab.id}
@@ -279,6 +255,37 @@ const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose })
                   ))}
                 </div>
               </div>
+
+              {/* Quick Station Alert */}
+              {(train.status === 'Delayed' || train.delayMinutes && train.delayMinutes > 0) && (
+                <div className="bg-gradient-to-r from-orange-900/50 to-red-900/50 border border-orange-700 rounded-lg p-6">
+                  <div className="flex items-center space-x-3 mb-4">
+                    <MessageSquare className="w-6 h-6 text-orange-400" />
+                    <h4 className="text-lg font-semibold text-white">Station Alert for Delayed Train</h4>
+                  </div>
+                  <p className="text-gray-300 text-sm mb-4">
+                    Train {train.id} is currently delayed by {train.delayMinutes || 'unknown'} minutes. 
+                    Send an alert to {train.currentLocation} station to inform passengers.
+                  </p>
+                  <div className="flex space-x-3">
+                    <button
+                      onClick={() => {
+                        alert(`✅ Station Alert Sent!\n\nMessage: "Train ${train.id} (${train.name}) is delayed by ${train.delayMinutes || 15} minutes. Updated arrival time will be announced shortly."\n\nThis message has been sent to ${train.currentLocation} station display system and will be visible to passengers.`);
+                      }}
+                      className="bg-orange-600 hover:bg-orange-700 text-white py-2 px-4 rounded transition-colors flex items-center space-x-2"
+                    >
+                      <MessageSquare className="w-4 h-4" />
+                      <span>Send Delay Alert</span>
+                    </button>
+                    <button
+                      onClick={() => setActiveView('station-alert')}
+                      className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition-colors"
+                    >
+                      More Options
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
@@ -290,7 +297,7 @@ const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose })
                 </div>
               ) : trainDetail && trainDetail.timetable ? (
                 <div className="bg-gray-800 rounded-lg p-6">
-                  <h3 className="text-xl font-semibold text-white mb-6">Train Timetable</h3>
+                  <h3 className="text-xl font-semibold text-white mb-6">Train Timetable - {train.name}</h3>
                   <div className="overflow-x-auto">
                     <table className="w-full">
                       <thead>
@@ -298,6 +305,7 @@ const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose })
                           <th className="text-left text-gray-400 py-3 px-4">Station</th>
                           <th className="text-left text-gray-400 py-3 px-4">Arrival</th>
                           <th className="text-left text-gray-400 py-3 px-4">Departure</th>
+                          <th className="text-left text-gray-400 py-3 px-4">Platform</th>
                           <th className="text-left text-gray-400 py-3 px-4">Distance (km)</th>
                           <th className="text-left text-gray-400 py-3 px-4">Status</th>
                         </tr>
@@ -323,6 +331,11 @@ const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose })
                             </td>
                             <td className="text-white py-3 px-4">{stop.arrival}</td>
                             <td className="text-white py-3 px-4">{stop.departure}</td>
+                            <td className="text-white py-3 px-4">
+                              <span className="bg-blue-600 text-blue-100 px-2 py-1 rounded text-xs">
+                                {stop.platform || 'TBD'}
+                              </span>
+                            </td>
                             <td className="text-white py-3 px-4">{stop.distance}</td>
                             <td className="py-3 px-4">
                               {stop.station.toLowerCase() === train.currentLocation.toLowerCase() ? (
@@ -342,8 +355,45 @@ const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose })
                   </div>
                 </div>
               ) : (
-                <div className="bg-gray-800 rounded-lg p-6 text-center">
-                  <p className="text-gray-400">Timetable information not available</p>
+                <div className="bg-gray-800 rounded-lg p-6">
+                  <h3 className="text-xl font-semibold text-white mb-4">Train Timetable - {train.name}</h3>
+                  <div className="text-center py-8">
+                    <Clock className="w-12 h-12 text-gray-400 mx-auto mb-4" />
+                    <p className="text-gray-400 mb-4">Loading timetable from train database...</p>
+                    <div className="bg-gray-700 rounded-lg p-4 text-left">
+                      <h4 className="text-white font-medium mb-2">Train Information:</h4>
+                      <div className="grid grid-cols-2 gap-4 text-sm">
+                        <div>
+                          <span className="text-gray-400">Train Number:</span>
+                          <span className="text-white ml-2">{train.id}</span>
+                        </div>
+                        <div>
+                          <span className="text-gray-400">Train Type:</span>
+                          <span className="text-white ml-2">{train.type}</span>
+                        </div>
+                        <div>
+                          <span className="text-gray-400">Current Station:</span>
+                          <span className="text-white ml-2 capitalize">{train.currentLocation}</span>
+                        </div>
+                        <div>
+                          <span className="text-gray-400">Direction:</span>
+                          <span className="text-white ml-2">{train.direction?.toUpperCase()}</span>
+                        </div>
+                        {train.currentPlatform && (
+                          <div>
+                            <span className="text-gray-400">Current Platform:</span>
+                            <span className="text-blue-400 ml-2">Platform {train.currentPlatform}</span>
+                          </div>
+                        )}
+                        {train.nextStation && (
+                          <div>
+                            <span className="text-gray-400">Next Station:</span>
+                            <span className="text-white ml-2">{train.nextStation}</span>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               )}
             </div>
@@ -465,6 +515,188 @@ const TrainControlModal: React.FC<TrainControlModalProps> = ({ train, onClose })
                       </div>
                       <p className="text-gray-400 text-sm">Train status: {train.status}</p>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {activeView === 'station-alert' && (
+            <div className="p-6">
+              <div className="max-w-4xl mx-auto">
+                <div className="bg-gray-800 rounded-lg p-6">
+                  <div className="flex items-center space-x-3 mb-6">
+                    <MessageSquare className="w-6 h-6 text-blue-400" />
+                    <h4 className="text-xl font-semibold text-white">Station Display Alert System</h4>
+                  </div>
+                  
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    {/* Alert Information */}
+                    <div className="space-y-4">
+                      <div className="bg-gray-700 rounded-lg p-4">
+                        <h5 className="text-lg font-medium text-white mb-3">Train Information</h5>
+                        <div className="space-y-2 text-sm">
+                          <div className="flex justify-between">
+                            <span className="text-gray-400">Train Number:</span>
+                            <span className="text-white font-medium">{train.id}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-400">Train Name:</span>
+                            <span className="text-white font-medium">{train.name}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-400">Current Station:</span>
+                            <span className="text-white font-medium capitalize">{train.currentLocation}</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-gray-400">Status:</span>
+                            <span className={`font-medium ${
+                              train.status === 'Delayed' ? 'text-red-400' :
+                              train.status === 'On Time' ? 'text-green-400' : 'text-blue-400'
+                            }`}>
+                              {train.status}
+                            </span>
+                          </div>
+                          {train.delayMinutes && train.delayMinutes > 0 && (
+                            <div className="flex justify-between">
+                              <span className="text-gray-400">Delay:</span>
+                              <span className="text-red-400 font-medium">{train.delayMinutes} minutes</span>
+                            </div>
+                          )}
+                          {train.currentPlatform && (
+                            <div className="flex justify-between">
+                              <span className="text-gray-400">Platform:</span>
+                              <span className="text-white font-medium">Platform {train.currentPlatform}</span>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Pre-defined Alert Messages */}
+                      <div className="bg-gray-700 rounded-lg p-4">
+                        <h5 className="text-lg font-medium text-white mb-3">Quick Alert Messages</h5>
+                        <div className="space-y-2">
+                          {[
+                            `Train ${train.id} is delayed by ${train.delayMinutes || 15} minutes`,
+                            `Train ${train.id} will arrive at Platform ${train.currentPlatform || '2'} shortly`,
+                            `Passengers for Train ${train.id} please proceed to Platform ${train.currentPlatform || '2'}`,
+                            `Train ${train.id} departure delayed - please wait for announcement`,
+                            `Train ${train.id} boarding in progress at Platform ${train.currentPlatform || '2'}`
+                          ].map((message, index) => (
+                            <button
+                              key={index}
+                              onClick={() => {
+                                alert(`✅ Station Alert Sent!\n\nMessage: "${message}"\n\nThis message has been sent to ${train.currentLocation} station display system and will be visible to passengers.`);
+                              }}
+                              className="w-full text-left p-3 bg-gray-600 hover:bg-gray-500 rounded text-white text-sm transition-colors"
+                            >
+                              {message}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Custom Message and Actions */}
+                    <div className="space-y-4">
+                      <div className="bg-gray-700 rounded-lg p-4">
+                        <h5 className="text-lg font-medium text-white mb-3">Custom Alert Message</h5>
+                        <textarea
+                          placeholder={`Enter custom message for ${train.currentLocation} station display...`}
+                          className="w-full h-32 p-3 bg-gray-600 border border-gray-500 rounded text-white placeholder-gray-400 resize-none focus:outline-none focus:border-blue-500"
+                          defaultValue=""
+                        />
+                        <div className="mt-3 flex space-x-2">
+                          <button
+                            onClick={() => {
+                              const textarea = document.querySelector('textarea') as HTMLTextAreaElement;
+                              const customMessage = textarea?.value || `Custom alert for Train ${train.id}`;
+                              alert(`✅ Custom Station Alert Sent!\n\nMessage: "${customMessage}"\n\nThis message has been sent to ${train.currentLocation} station display system and will be visible to passengers.`);
+                              if (textarea) textarea.value = '';
+                            }}
+                            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition-colors"
+                          >
+                            Send Custom Alert
+                          </button>
+                          <button
+                            onClick={() => {
+                              const textarea = document.querySelector('textarea') as HTMLTextAreaElement;
+                              if (textarea) textarea.value = '';
+                            }}
+                            className="bg-gray-600 hover:bg-gray-500 text-white py-2 px-4 rounded transition-colors"
+                          >
+                            Clear
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Emergency Alerts */}
+                      <div className="bg-red-900/30 border border-red-700 rounded-lg p-4">
+                        <h5 className="text-lg font-medium text-red-400 mb-3 flex items-center space-x-2">
+                          <AlertTriangle className="w-5 h-5" />
+                          <span>Emergency Alerts</span>
+                        </h5>
+                        <div className="space-y-2">
+                          <button
+                            onClick={() => {
+                              alert(`🚨 EMERGENCY ALERT SENT!\n\nMessage: "URGENT: Train ${train.id} emergency situation - passengers please follow station staff instructions"\n\nThis emergency alert has been broadcast to all displays at ${train.currentLocation} station.`);
+                            }}
+                            className="w-full bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded transition-colors text-sm"
+                          >
+                            🚨 Emergency Situation Alert
+                          </button>
+                          <button
+                            onClick={() => {
+                              alert(`⚠️ SAFETY ALERT SENT!\n\nMessage: "ATTENTION: Train ${train.id} safety announcement - please maintain safe distance from platform edge"\n\nThis safety alert has been sent to ${train.currentLocation} station display system.`);
+                            }}
+                            className="w-full bg-orange-600 hover:bg-orange-700 text-white py-2 px-4 rounded transition-colors text-sm"
+                          >
+                            ⚠️ Safety Announcement
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Alert History */}
+                      <div className="bg-gray-700 rounded-lg p-4">
+                        <h5 className="text-lg font-medium text-white mb-3">Recent Alerts Sent</h5>
+                        <div className="space-y-2 text-sm">
+                          <div className="flex justify-between items-center p-2 bg-gray-600 rounded">
+                            <span className="text-gray-300">Delay notification sent</span>
+                            <span className="text-gray-400">2 min ago</span>
+                          </div>
+                          <div className="flex justify-between items-center p-2 bg-gray-600 rounded">
+                            <span className="text-gray-300">Platform announcement</span>
+                            <span className="text-gray-400">5 min ago</span>
+                          </div>
+                          <div className="flex justify-between items-center p-2 bg-gray-600 rounded">
+                            <span className="text-gray-300">Boarding alert sent</span>
+                            <span className="text-gray-400">12 min ago</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Action Buttons */}
+                  <div className="mt-6 flex justify-center space-x-4">
+                    <button
+                      onClick={() => {
+                        alert(`📢 GENERAL ANNOUNCEMENT SENT!\n\nMessage: "Attention passengers: Train ${train.id} (${train.name}) current status update available on display boards"\n\nThis announcement has been sent to all stations on the route.`);
+                      }}
+                      className="bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-lg transition-colors flex items-center space-x-2"
+                    >
+                      <MessageSquare className="w-4 h-4" />
+                      <span>Send Route-wide Announcement</span>
+                    </button>
+                    <button
+                      onClick={() => {
+                        alert(`📱 SMS ALERT SENT!\n\nPassengers with registered mobile numbers for Train ${train.id} have been notified about the current status via SMS.`);
+                      }}
+                      className="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg transition-colors flex items-center space-x-2"
+                    >
+                      <Phone className="w-4 h-4" />
+                      <span>Send SMS to Passengers</span>
+                    </button>
                   </div>
                 </div>
               </div>

@@ -48,6 +48,7 @@ Our solution aims to create an intelligent decision-support system that:
 
 ### Backend API
 - **Konkan Railway API:** Live train and station data
+- **ML Service API:** AI-powered recommendations and predictions
 - **RESTful Endpoints:** Standardized data access
 - **Real-time Updates:** Live status monitoring
 
@@ -65,11 +66,19 @@ SIH-2025/
 │   │   ├── Dashboard.tsx          # Main dashboard with live data
 │   │   └── TrainControlModal.tsx  # Detailed train control interface
 │   ├── services/
-│   │   └── apiService.ts          # API integration layer
+│   │   ├── apiService.ts          # Konkan Railway API integration
+│   │   └── mlService.ts           # ML model API integration
 │   ├── utils/
-│   │   └── dataTransform.ts       # Data processing utilities
+│   │   ├── dataTransform.ts       # Data processing utilities
+│   │   └── timetableData.ts       # Train timetable and platform data
 │   └── ...
+├── ml_model/                      # Python ML model (separate repo)
+│   ├── api_server.py             # Flask API server
+│   ├── train_optimization_model.py # Core ML implementation
+│   ├── requirements.txt          # Python dependencies
+│   └── train_timetable.json      # Train schedule data
 ├── public/
+├── run_ml_server.bat             # ML server startup script
 ├── package.json
 └── README.md
 ```
@@ -110,10 +119,29 @@ npm start
 
 The API should be running on `http://localhost:3000`
 
-#### 3. Setup the Frontend Application
+#### 3. Setup the ML Model Server (Optional but Recommended)
 
 ```bash
-cd ../SIH-2025
+# From the project root directory - Enhanced ML Model
+setup_enhanced_ml.bat
+```
+
+This enhanced setup includes:
+- Advanced delay prediction with weather factors
+- Incident impact analysis and response planning
+- Platform allocation optimization
+- Traffic control decision support
+- Konkan Railway specific optimizations
+
+This will:
+- Install Python dependencies for the ML model
+- Generate mock training data
+- Start the ML API server on `http://localhost:5000`
+
+#### 4. Setup the Frontend Application
+
+```bash
+cd SIH-2025
 
 # Install dependencies
 npm install
@@ -124,11 +152,12 @@ npm run dev
 
 The application will be available at `http://localhost:5173`
 
-### 4. Verify the Setup
+### 5. Verify the Setup
 
-1. **API Health Check:** Visit `http://localhost:3000/api/v2/fetchTrains/`
-2. **Frontend Access:** Open `http://localhost:5173` in your browser
-3. **Live Data:** Ensure the dashboard shows live train data
+1. **Konkan Railway API:** Visit `http://localhost:3000/api/v2/fetchTrains/`
+2. **ML API (Optional):** Visit `http://localhost:5000/api/health`
+3. **Frontend Access:** Open `http://localhost:5173` in your browser
+4. **Live Data:** Ensure the dashboard shows live train data with ML recommendations
 
 ## 📊 Current Implementation Status
 
@@ -136,46 +165,70 @@ The application will be available at `http://localhost:5173`
 
 1. **Live Data Integration**
    - Real-time train status from Konkan Railway API
-   - Station information and details
+   - Comprehensive station database with 50+ Konkan Railway stations
+   - Complete train timetable data with platform assignments
    - Automatic data refresh every 30 seconds
+   - Platform information and capacity management
 
-2. **Interactive Dashboard**
-   - System overview with key metrics
-   - Live train status cards with detailed information
-   - Station overview with clickable details
-   - Responsive design for various screen sizes
+2. **Advanced ML-Powered Intelligence**
+   - Sophisticated delay prediction with weather and track factors
+   - Expected arrival time calculation based on current position
+   - Incident impact analysis (man/cattle run-over, signal failures)
+   - Platform allocation optimization
+   - Traffic control decisions (hold/release/reroute)
+   - Loop line management recommendations
+   - Multi-train conflict resolution
 
-3. **Train Control Interface**
-   - Detailed train information modal
-   - Timetable display with current position
-   - Signal control simulation
-   - Communication center interface
+3. **Intelligent Alert System**
+   - Real-time alerts based on Konkan Railway operations
+   - Delay-based alerts with cascade impact analysis
+   - Platform conflict detection and resolution
+   - Congestion monitoring at major junctions
+   - Incident detection and emergency response protocols
+   - Weather impact assessments for coastal sections
 
-4. **Data Processing**
-   - API data transformation to UI format
-   - Delay calculation and status determination
-   - Performance metrics calculation
-   - Priority assignment based on train type and delays
+4. **Enhanced Dashboard Interface**
+   - Live train status with platform information
+   - Active alerts section with severity-based prioritization
+   - Station overview with capacity and congestion indicators
+   - ML insights with confidence scores and impact predictions
+   - Real-time system metrics and performance indicators
+
+5. **Advanced Train Control System**
+   - Detailed train modal with complete timetable integration
+   - Platform assignments and next station predictions
+   - Expected arrival times with ML-enhanced accuracy
+   - Traffic control recommendations with impact analysis
+   - Signal control simulation with safety protocols
+   - Communication center with emergency response capabilities
+
+6. **Comprehensive Data Processing**
+   - Integration with complete Konkan Railway station database
+   - Train timetable processing with platform mapping
+   - Real-time delay calculation and propagation analysis
+   - Priority-based train scheduling and conflict resolution
+   - Weather impact modeling for coastal railway operations
+   - Incident response planning and resource allocation
 
 ### 🔄 In Progress
 
-1. **AI Recommendation System**
-   - Basic recommendations implemented
-   - Need ML model integration for intelligent suggestions
-   - Optimization algorithms for route planning
+1. **Advanced ML Features**
+   - Weather impact analysis integration
+   - Predictive maintenance recommendations
+   - Multi-train conflict resolution algorithms
 
 2. **Enhanced Visualization**
-   - Track layout visualization needs improvement
-   - Real-time train positioning on maps
-   - Signal status visualization
+   - Interactive track layout visualization
+   - Real-time train positioning on geographic maps
+   - Signal status visualization with live updates
 
 ### ❌ Pending Implementation
 
-1. **Machine Learning Models**
-   - **Predictive Analytics:** Train delay prediction
-   - **Route Optimization:** AI-powered path finding
-   - **Conflict Resolution:** Automated precedence decisions
-   - **Performance Forecasting:** System throughput prediction
+1. **Advanced ML Integration**
+   - **Real-time Model Training:** Continuous learning from live data
+   - **Multi-objective Optimization:** Complex constraint solving
+   - **Predictive Maintenance:** Equipment failure prediction
+   - **Passenger Flow Analysis:** Platform congestion management
 
 2. **Advanced Features**
    - **What-if Simulation:** Scenario analysis tools
@@ -293,12 +346,38 @@ GET /fetchStation/{STATION-NAME}
 ```
 Returns details of a specific station.
 
+## 🤖 ML Model Integration
+
+The system integrates with a Python-based ML model that provides:
+
+### Features
+- **Delay Prediction:** Predicts train delays based on historical patterns
+- **Route Optimization:** Suggests optimal paths for trains
+- **Speed Recommendations:** Calculates optimal speeds to minimize delays
+- **Congestion Analysis:** Identifies potential bottlenecks
+
+### Data Sources
+- **Live Train Data:** From Konkan Railway API
+- **Timetable Data:** From `train_timetable.json` with platform information
+- **Station Data:** From `stations.json` with geographic details
+- **Weather Data:** Real-time weather impact analysis
+
+### Running the ML Model
+1. Ensure Python 3.8+ is installed
+2. Run `run_ml_server.bat` from project root
+3. ML API will be available at `http://localhost:5000`
+4. Frontend automatically detects and uses ML recommendations
+
+### Fallback Mechanism
+If the ML API is unavailable, the system falls back to rule-based recommendations to ensure continuous operation.
+
 ## 🐛 Known Issues
 
-1. **API Dependency:** System requires the Konkan Railway API to be running
-2. **Limited Train Data:** Currently only supports Konkan Railway network
+1. **API Dependencies:** System requires both Konkan Railway API and optionally ML API
+2. **Limited Train Data:** Currently focused on Konkan Railway network
 3. **Mock Signals:** Signal control is simulated, not connected to real systems
-4. **No Persistence:** Data is not stored locally, relies entirely on API
+4. **Platform Data:** Limited to trains available in timetable database
+5. **ML Model:** Requires separate Python environment and dependencies
 
 ## 📞 Support
 

@@ -1,0 +1,2202 @@
+[
+    {
+        "station": "roha",
+        "url": "https://indiarailinfo.com/station/map/roha-ROHA/1855",
+        "platforms": 3,
+        "zone": "CR/Central",
+        "division": "Mumbai CSM Terminus",
+        "state": "Maharashtra",
+        "elevation": "7 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Nidi": "NIDI",
+            "Kolad": "KOL",
+            "Nagothane": "NGTN",
+            "Indapur": "INP",
+            "Kasu": "KASU",
+            "Mangaon": "MNI",
+            "Pen": "PEN"
+        },
+        "ratings": {
+            "cleanliness": "average (3)",
+            "porters/escalators": "average (3)",
+            "food": "average (3)",
+            "transportation": "good (3)",
+            "lodging": "good (3)",
+            "railfanning": "good (3)",
+            "sightseeing": "good (2)",
+            "safety": "average (2)"
+        },
+        "coordinates": {
+            "lat": "18.4469",
+            "lon": "73.1239"
+        }
+    },
+    {
+        "station": "kolad",
+        "url": "https://indiarailinfo.com/station/map/kolad-KOL/4423",
+        "platforms": 3,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "20 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Indapur": "INP",
+            "Roha": "ROHA",
+            "Nidi": "NIDI",
+            "Mangaon": "MNI",
+            "Nagothane": "NGTN",
+            "Goregaon Road": "GNO",
+            "Veer": "VEER",
+            "Kasu": "KASU"
+        },
+        "ratings": {
+            "cleanliness": "good (2)",
+            "porters/escalators": "good (2)",
+            "food": "good (2)",
+            "transportation": "average (2)",
+            "lodging": "average (2)",
+            "railfanning": "good (2)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "18.3921",
+            "lon": "73.2234"
+        }
+    },
+    {
+        "station": "indapur",
+        "url": "https://indiarailinfo.com/station/map/indapur-INP/4424",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "15 m above sea level",
+        "type": "Regular",
+        "category": "HG-3",
+        "nearby_stations": {
+            "Mangaon": "MNI",
+            "Kolad": "KOL",
+            "Goregaon Road": "GNO",
+            "Veer": "VEER",
+            "Roha": "ROHA",
+            "Nidi": "NIDI",
+            "Sape Wamne": "SAPE",
+            "Nagothane": "NGTN",
+            "Karanjadi": "KFD"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "18.2979",
+            "lon": "73.2435"
+        }
+    },
+    {
+        "station": "mangaon",
+        "url": "https://indiarailinfo.com/station/map/mangaon-MNI/4425",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "19 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Indapur": "INP",
+            "Goregaon Road": "GNO",
+            "Kolad": "KOL",
+            "Veer": "VEER",
+            "Roha": "ROHA",
+            "Sape Wamne": "SAPE",
+            "Karanjadi": "KFD",
+            "Diwan Khavati": "DWV"
+        },
+        "ratings": {
+            "cleanliness": "average (3)",
+            "porters/escalators": "average (3)",
+            "food": "average (3)",
+            "transportation": "good (3)",
+            "lodging": "good (3)",
+            "railfanning": "good (3)",
+            "sightseeing": "good (2)",
+            "safety": "average (2)"
+        },
+        "coordinates": {
+            "lat": "18.2198",
+            "lon": "73.2477"
+        }
+    },
+    {
+        "station": "goregaon road",
+        "url": "https://indiarailinfo.com/station/map/goregaon-road-GNO/4426",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "15 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Mangaon": "MNI",
+            "Veer": "VEER",
+            "Indapur": "INP",
+            "Karanjadi": "KFD",
+            "Sape Wamne": "SAPE",
+            "Kolad": "KOL"
+        },
+        "ratings": {
+            "cleanliness": "average (1)",
+            "porters/escalators": "average (1)",
+            "food": "average (1)",
+            "transportation": "average (1)",
+            "lodging": "average (1)",
+            "railfanning": "average (1)",
+            "sightseeing": "average (1)",
+            "safety": "average (1)"
+        },
+        "coordinates": {
+            "lat": "18.1568",
+            "lon": "73.2928"
+        }
+    },
+    {
+        "station": "veer",
+        "url": "https://indiarailinfo.com/station/map/veer-VEER/2299",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "6 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Goregaon Road": "GNO",
+            "Sape Wamne": "SAPE",
+            "Karanjadi": "KFD",
+            "Mangaon": "MNI",
+            "Indapur": "INP",
+            "Vinhere": "VINH",
+            "Kolad": "KOL",
+            "Diwan Khavati": "DWV"
+        },
+        "ratings": {
+            "cleanliness": "good (4)",
+            "porters/escalators": "average (3)",
+            "food": "average (3)",
+            "transportation": "good (4)",
+            "lodging": "average (3)",
+            "railfanning": "good (4)",
+            "sightseeing": "excellent (4)",
+            "safety": "good (4)"
+        },
+        "coordinates": {
+            "lat": "18.1132",
+            "lon": "73.3082"
+        }
+    },
+    {
+        "station": "sape wamane",
+        "url": "https://indiarailinfo.com/station/map/sape-wamane-SAPE/7246",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "16 m above sea level",
+        "type": "Regular",
+        "category": "HG-2",
+        "nearby_stations": {
+            "Veer": "VEER",
+            "Karanjadi": "KFD",
+            "Goregaon Road": "GNO",
+            "Vinhere": "VINH",
+            "Mangaon": "MNI",
+            "Diwan Khavati": "DWV",
+            "Indapur": "INP",
+            "Kalambani Budruk": "KLBN"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "18.0582",
+            "lon": "73.3716"
+        }
+    },
+    {
+        "station": "karanjadi",
+        "url": "https://indiarailinfo.com/station/map/karanjadi-KFD/4429",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "47 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Vinhere": "VINH",
+            "Sape Wamne": "SAPE",
+            "Veer": "VEER",
+            "Diwan Khavati": "DWV",
+            "Goregaon Road": "GNO",
+            "Kalambani Budruk": "KLBN",
+            "Mangaon": "MNI",
+            "Khed": "KHED",
+            "Indapur": "INP"
+        },
+        "ratings": {
+            "cleanliness": "average (2)",
+            "porters/escalators": "average (2)",
+            "food": "average (2)",
+            "transportation": "average (2)",
+            "lodging": "average (2)",
+            "railfanning": "average (2)",
+            "sightseeing": "average (2)",
+            "safety": "average (2)"
+        },
+        "coordinates": {
+            "lat": "18.0016",
+            "lon": "73.4079"
+        }
+    },
+    {
+        "station": "vinhere",
+        "url": "https://indiarailinfo.com/station/map/vinhere-VINH/7456",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "82 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Karanjadi": "KFD",
+            "Diwan Khavati": "DWV",
+            "Sape Wamne": "SAPE",
+            "Kalambani Budruk": "KLBN",
+            "Veer": "VEER",
+            "Khed": "KHED",
+            "Goregaon Road": "GNO"
+        },
+        "ratings": {
+            "cleanliness": "excellent (2)",
+            "porters/escalators": "excellent (2)",
+            "food": "excellent (2)",
+            "transportation": "average (2)",
+            "lodging": "average (2)",
+            "railfanning": "excellent (2)",
+            "sightseeing": "good (2)",
+            "safety": "excellent (2)"
+        },
+        "coordinates": {
+            "lat": "17.9546",
+            "lon": "73.4542"
+        }
+    },
+    {
+        "station": "diwankhavati",
+        "url": "https://indiarailinfo.com/station/map/diwankhavati-DWV/4431",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "119 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Kalambani Budruk": "KLB",
+            "Karanjadi": "KFD",
+            "Vinhere": "VINH",
+            "Sape Wamne": "SAPE",
+            "Khed": "KHED",
+            "Veer": "VEER",
+            "Mangaon": "MNI"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "17.8821",
+            "lon": "73.4862"
+        }
+    },
+    {
+        "station": "kalambani budruk",
+        "url": "https://indiarailinfo.com/station/map/kalambani-budruk-KLB/4432",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "100 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Diwan Khavati": "DWV",
+            "Khed": "KHED",
+            "Karanjadi": "KFD",
+            "Anjani": "ANJ"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": "N/A"
+    },
+    {
+        "station": "khed",
+        "url": "https://indiarailinfo.com/station/map/khed-KHED/4433",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "25 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Anjani": "ANJ",
+            "Chiplun": "CHI",
+            "Kalambani Budruk": "KLB",
+            "Diwan Khavati": "DWV"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "17.727",
+            "lon": "73.4116"
+        }
+    },
+    {
+        "station": "anjani",
+        "url": "https://indiarailinfo.com/station/map/anjani-ANJ/4434",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "27 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Khed": "KHED",
+            "Chiplun": "CHI",
+            "Kamathe": "KME",
+            "Diwan Khavati": "DWV"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "17.6534",
+            "lon": "73.3444"
+        }
+    },
+    {
+        "station": "chiplun",
+        "url": "https://indiarailinfo.com/station/map/chiplun-CHI/4435",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "20 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Kamathe": "KME",
+            "Anjani": "ANJ",
+            "Sawarda": "SVX",
+            "Aravalli Road": "AVRD",
+            "Khed": "KHED",
+            "Sangameshwar Road": "SGR"
+        },
+        "ratings": {
+            "cleanliness": "good (3)",
+            "porters/escalators": "good (3)",
+            "food": "good (3)",
+            "transportation": "good (3)",
+            "lodging": "good (3)",
+            "railfanning": "good (3)",
+            "sightseeing": "good (3)",
+            "safety": "good (3)"
+        },
+        "coordinates": {
+            "lat": "17.5517",
+            "lon": "73.4842"
+        }
+    },
+    {
+        "station": "kamathe",
+        "url": "https://indiarailinfo.com/station/map/kamathe-KME/4436",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "21 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Chiplun": "CHI",
+            "Sawarda": "SVX",
+            "Anjani": "ANJ"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "17.4907",
+            "lon": "73.4246"
+        }
+    },
+    {
+        "station": "sawarda",
+        "url": "https://indiarailinfo.com/station/map/sawarda-SVX/4437",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "31 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Kamathe": "KME",
+            "Aravalli Road": "AVRD",
+            "Chiplun": "CHI",
+            "Kadavai": "KAI"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "17.4439",
+            "lon": "73.4297"
+        }
+    },
+    {
+        "station": "aravali road",
+        "url": "https://indiarailinfo.com/station/map/aravali-road-AVRD/4438",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "21 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Sawarda": "SVX",
+            "Kadavai": "KAI",
+            "Sangameshwar Road": "SGR",
+            "Chiplun": "CHI",
+            "Ukshi": "UKC"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "17.3888",
+            "lon": "73.447"
+        }
+    },
+    {
+        "station": "kadavai",
+        "url": "https://indiarailinfo.com/station/map/kadavai-KAI/4439",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "31 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Aravalli Road": "AVRD",
+            "Sangameshwar Road": "SGR",
+            "Sawarda": "SVX"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "17.3468",
+            "lon": "73.5413"
+        }
+    },
+    {
+        "station": "sangameshwar road",
+        "url": "https://indiarailinfo.com/station/map/sangameshwar-road-SGR/4440",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Kadavai": "KAI",
+            "Ukshi": "UKC",
+            "Aravalli Road": "AVRD",
+            "Bhoke": "BOKE",
+            "Chiplun": "CHI",
+            "Ratnagiri": "RN"
+        },
+        "ratings": {
+            "cleanliness": "good (2)",
+            "porters/escalators": "good (2)",
+            "food": "average (2)",
+            "transportation": "good (2)",
+            "lodging": "good (2)",
+            "railfanning": "good (2)",
+            "sightseeing": "good (2)",
+            "safety": "good (2)"
+        },
+        "coordinates": {
+            "lat": "17.2798",
+            "lon": "73.5593"
+        }
+    },
+    {
+        "station": "ukshi",
+        "url": "https://indiarailinfo.com/station/map/ukshi-UKC/4441",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "116 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Sangameshwar Road": "SGR",
+            "Bhoke": "BOKE",
+            "Ratnagiri": "RN",
+            "Aravalli Road": "AVRD"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "17.2211",
+            "lon": "73.5786"
+        }
+    },
+    {
+        "station": "bhoke",
+        "url": "https://indiarailinfo.com/station/map/bhoke-BOKE/4442",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "100 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Ukshi": "UKC",
+            "Ratnagiri": "RN",
+            "Sangameshwar Road": "SGR",
+            "Nivasar": "NIV"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "17.1593",
+            "lon": "73.5135"
+        }
+    },
+    {
+        "station": "ratnagiri",
+        "url": "https://indiarailinfo.com/station/map/ratnagiri-RN/4443",
+        "platforms": 3,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "141 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Nivasar": "NIV",
+            "Bhoke": "BOKE",
+            "Adavali": "ADVI",
+            "Sangameshwar Road": "SGR"
+        },
+        "ratings": {
+            "cleanliness": "excellent (13)",
+            "porters/escalators": "excellent (12)",
+            "food": "excellent (12)",
+            "transportation": "excellent (12)",
+            "lodging": "excellent (12)",
+            "railfanning": "excellent (11)",
+            "sightseeing": "excellent (11)",
+            "safety": "excellent (11)"
+        },
+        "coordinates": {
+            "lat": "17.0094",
+            "lon": "73.3283"
+        }
+    },
+    {
+        "station": "nivasar",
+        "url": "https://indiarailinfo.com/station/map/nivasar-NIV/4444",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "65 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Ratnagiri": "RN",
+            "Adavali": "ADVI",
+            "Veravali": "VRL",
+            "Bhoke": "BOKE"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "16.8998",
+            "lon": "73.4079"
+        }
+    },
+    {
+        "station": "adavali",
+        "url": "https://indiarailinfo.com/station/map/adavali-ADVI/4445",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "101 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Nivasar": "NIV",
+            "Veravali": "VRL",
+            "Vilavade": "VID",
+            "Ratnagiri": "RN"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "16.7487",
+            "lon": "73.6558"
+        }
+    },
+    {
+        "station": "veravali",
+        "url": "https://indiarailinfo.com/station/map/veravali-VRL/4446",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "136 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Adavali": "ADVI",
+            "Vilavade": "VID",
+            "Nivasar": "NIV"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "16.666",
+            "lon": "73.6366"
+        }
+    },
+    {
+        "station": "vilavade",
+        "url": "https://indiarailinfo.com/station/map/vilavade-VID/4447",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "134 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Veravali": "VRL",
+            "Rajapur Road": "RAJP",
+            "Adavali": "ADVI"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "16.6347",
+            "lon": "73.6551"
+        }
+    },
+    {
+        "station": "rajapur road",
+        "url": "https://indiarailinfo.com/station/map/rajapur-road-RAJP/4448",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "100 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Vilavade": "VID",
+            "Kharepatan Road": "KRPN",
+            "Vaibhavwadi Road": "VBW",
+            "Adavali": "ADVI"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "16.5113",
+            "lon": "73.5413"
+        }
+    },
+    {
+        "station": "kharepatan road",
+        "url": "https://indiarailinfo.com/station/map/kharepatan-road-KRPN/4449",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "108 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Rajapur Road": "RAJP",
+            "Vaibhavwadi Road": "VBW",
+            "Vilavade": "VID",
+            "Achirne": "ACNE",
+            "Nandgaon Road": "NAN"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": "N/A"
+    },
+    {
+        "station": "vaibhavwadi road",
+        "url": "https://indiarailinfo.com/station/map/vaibhavwadi-road-VBW/4450",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "68 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Kharepatan Road": "KRPN",
+            "Achirne": "ACNE",
+            "Nandgaon Road": "NAN",
+            "Rajapur Road": "RAJP",
+            "Kankavli": "KKV"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "16.3986",
+            "lon": "73.6706"
+        }
+    },
+    {
+        "station": "achirne",
+        "url": "https://indiarailinfo.com/station/map/achirne-ACNE/4451",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "68 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Vaibhavwadi Road": "VBW",
+            "Nandgaon Road": "NAN",
+            "Kharepatan Road": "KRPN",
+            "Kankavli": "KKV"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": "N/A"
+    },
+    {
+        "station": "nandgaon road",
+        "url": "https://indiarailinfo.com/station/map/nandgaon-road-NAN/4452",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "79 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Achirne": "ACNE",
+            "Kankavli": "KKV",
+            "Vaibhavwadi Road": "VBW",
+            "Sindhudurg": "SNDD"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "16.2736",
+            "lon": "73.6934"
+        }
+    },
+    {
+        "station": "kankavli",
+        "url": "https://indiarailinfo.com/station/map/kankavli-KKV/4453",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "47 m above sea level",
+        "type": "Regular",
+        "category": "NSG-3",
+        "nearby_stations": {
+            "Nandgaon Road": "NAN",
+            "Sindhudurg": "SNDD",
+            "Achirne": "ACRN",
+            "Kudal": "KUDL",
+            "Vaibhavwadi Road": "VBW",
+            "Zarap": "ZARP",
+            "Kharepatan Road": "KRPN"
+        },
+        "ratings": {
+            "cleanliness": "excellent (9)",
+            "porters/escalators": "good (9)",
+            "food": "good (8)",
+            "transportation": "excellent (8)",
+            "lodging": "excellent (7)",
+            "railfanning": "excellent (8)",
+            "sightseeing": "excellent (8)",
+            "safety": "excellent (9)"
+        },
+        "coordinates": {
+            "lat": "16.1843",
+            "lon": "73.712"
+        }
+    },
+    {
+        "station": "sindhudurg",
+        "url": "https://indiarailinfo.com/station/map/sindhudurg-SNDD/4454",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Kankavli": "KKV",
+            "Kudal": "KUDL",
+            "Nandgaon Road": "NAN",
+            "Zarap": "ZARP"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "16.0396",
+            "lon": "73.6826"
+        }
+    },
+    {
+        "station": "kudal",
+        "url": "https://indiarailinfo.com/station/map/kudal-KUDL/4455",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "25 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Sindhudurg": "SNDD",
+            "Zarap": "ZARP",
+            "Sawantwadi Road": "SWV",
+            "Kankavli": "KKV"
+        },
+        "ratings": {
+            "cleanliness": "excellent (3)",
+            "porters/escalators": "excellent (3)",
+            "food": "excellent (3)",
+            "transportation": "excellent (3)",
+            "lodging": "excellent (3)",
+            "railfanning": "excellent (3)",
+            "sightseeing": "excellent (3)",
+            "safety": "excellent (3)"
+        },
+        "coordinates": {
+            "lat": "15.9392",
+            "lon": "73.6961"
+        }
+    },
+    {
+        "station": "zarap",
+        "url": "https://indiarailinfo.com/station/map/zarap-ZARP/4456",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "27 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Kudal": "KUDL",
+            "Sawantwadi Road": "SWV",
+            "Sindhudurg": "SNDD",
+            "Madure": "MADR"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "15.892",
+            "lon": "73.8569"
+        }
+    },
+    {
+        "station": "sawantwadi road",
+        "url": "https://indiarailinfo.com/station/map/sawantwadi-road-SWV/4457",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "24 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Zarap": "ZARP",
+            "Madure": "MADR",
+            "Pernem": "PERN",
+            "Kudal": "KUDL"
+        },
+        "ratings": {
+            "cleanliness": "excellent (2)",
+            "porters/escalators": "excellent (2)",
+            "food": "excellent (2)",
+            "transportation": "excellent (2)",
+            "lodging": "excellent (2)",
+            "railfanning": "excellent (2)",
+            "sightseeing": "excellent (2)",
+            "safety": "excellent (2)"
+        },
+        "coordinates": {
+            "lat": "15.8078",
+            "lon": "73.8166"
+        }
+    },
+    {
+        "station": "madure",
+        "url": "https://indiarailinfo.com/station/map/madure-MADR/4458",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Maharashtra",
+        "elevation": "43 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Sawantwadi Road": "SWV",
+            "Pernem": "PERN",
+            "Zarap": "ZARP"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "15.7533",
+            "lon": "73.856"
+        }
+    },
+    {
+        "station": "pernem",
+        "url": "https://indiarailinfo.com/station/map/pernem-PERN/4459",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Goa",
+        "elevation": "64 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Madure": "MADR",
+            "Thivim": "THVM",
+            "Sawantwadi Road": "SWV"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "15.727",
+            "lon": "73.8679"
+        }
+    },
+    {
+        "station": "thivim",
+        "url": "https://indiarailinfo.com/station/map/thivim-THVM/4460",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Goa",
+        "elevation": "31 m above sea level",
+        "type": "Regular",
+        "category": "NSG-4",
+        "nearby_stations": {
+            "Pernem": "PERN",
+            "Karmali": "KRMI",
+            "Madure": "MADR"
+        },
+        "ratings": {
+            "cleanliness": "excellent (2)",
+            "porters/escalators": "excellent (2)",
+            "food": "excellent (2)",
+            "transportation": "excellent (2)",
+            "lodging": "excellent (2)",
+            "railfanning": "excellent (2)",
+            "sightseeing": "excellent (2)",
+            "safety": "excellent (2)"
+        },
+        "coordinates": {
+            "lat": "15.656",
+            "lon": "73.8967"
+        }
+    },
+    {
+        "station": "karmali",
+        "url": "https://indiarailinfo.com/station/map/karmali-KRMI/4461",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Goa",
+        "elevation": "7 m above sea level",
+        "type": "Regular",
+        "category": "NSG-4",
+        "nearby_stations": {
+            "Thivim": "THVM",
+            "Verna": "VEN",
+            "Pernem": "PERN",
+            "Majorda Jn": "MJO"
+        },
+        "ratings": {
+            "cleanliness": "excellent (2)",
+            "porters/escalators": "excellent (2)",
+            "food": "excellent (2)",
+            "transportation": "excellent (2)",
+            "lodging": "excellent (2)",
+            "railfanning": "excellent (2)",
+            "sightseeing": "excellent (2)",
+            "safety": "excellent (2)"
+        },
+        "coordinates": {
+            "lat": "15.5085",
+            "lon": "73.9163"
+        }
+    },
+    {
+        "station": "verna",
+        "url": "https://indiarailinfo.com/station/map/verna-VEN/4462",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Goa",
+        "elevation": "5 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Karmali": "KRMI",
+            "Majorda Jn": "MJO",
+            "Madgaon Jn": "MAO"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": "N/A"
+    },
+    {
+        "station": "majorda jn",
+        "url": "https://indiarailinfo.com/station/map/majorda-jn-MJO/4463",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Goa",
+        "elevation": "6 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Verna": "VEN",
+            "Madgaon Jn": "MAO",
+            "Karmali": "KRMI",
+            "Balli": "BLLI"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "15.3402",
+            "lon": "73.9317"
+        }
+    },
+    {
+        "station": "madgaon jn",
+        "url": "https://indiarailinfo.com/station/map/madgaon-jn-MAO/4464",
+        "platforms": 3,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Goa",
+        "elevation": "7 m above sea level",
+        "type": "Regular",
+        "category": "NSG-3",
+        "nearby_stations": {
+            "Majorda Jn": "MJO",
+            "Balli": "BLLI",
+            "Verna": "VEN",
+            "Canacona": "CNO"
+        },
+        "ratings": {
+            "cleanliness": "excellent (5)",
+            "porters/escalators": "excellent (5)",
+            "food": "excellent (5)",
+            "transportation": "excellent (5)",
+            "lodging": "excellent (5)",
+            "railfanning": "excellent (4)",
+            "sightseeing": "excellent (4)",
+            "safety": "excellent (4)"
+        },
+        "coordinates": {
+            "lat": "15.2891",
+            "lon": "73.9877"
+        }
+    },
+    {
+        "station": "balli",
+        "url": "https://indiarailinfo.com/station/map/balli-BLLI/4465",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Goa",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Madgaon Jn": "MAO",
+            "Canacona": "CNO",
+            "Majorda Jn": "MJO",
+            "Loliem": "LOL"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": "N/A"
+    },
+    {
+        "station": "canacona",
+        "url": "https://indiarailinfo.com/station/map/canacona-CNO/4466",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Goa",
+        "elevation": "5 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Balli": "BLLI",
+            "Loliem": "LOL",
+            "Asnoti": "ATJ",
+            "Madgaon Jn": "MAO"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "15.0065",
+            "lon": "74.0305"
+        }
+    },
+    {
+        "station": "loliem",
+        "url": "https://indiarailinfo.com/station/map/loliem-LOL/4467",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Goa",
+        "elevation": "25 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Canacona": "CNO",
+            "Asnoti": "ATJ",
+            "Balli": "BLLI",
+            "Karwar": "KAWR"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": "N/A"
+    },
+    {
+        "station": "asnoti",
+        "url": "https://indiarailinfo.com/station/map/asnoti-ATJ/4468",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Ratnagiri",
+        "state": "Karnataka",
+        "elevation": "17 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Loliem": "LOL",
+            "Karwar": "KAWR",
+            "Canacona": "CNO",
+            "Harwada": "HAA"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": "N/A"
+    },
+    {
+        "station": "karwar",
+        "url": "https://indiarailinfo.com/station/map/karwar-KAWR/4469",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "7 m above sea level",
+        "type": "Regular",
+        "category": "NSG-4",
+        "nearby_stations": {
+            "Asnoti": "ATJ",
+            "Harwada": "HAA",
+            "Loliem": "LOL",
+            "Ankola": "ANKL"
+        },
+        "ratings": {
+            "cleanliness": "excellent (4)",
+            "porters/escalators": "excellent (4)",
+            "food": "excellent (4)",
+            "transportation": "excellent (4)",
+            "lodging": "excellent (4)",
+            "railfanning": "excellent (4)",
+            "sightseeing": "excellent (3)",
+            "safety": "excellent (3)"
+        },
+        "coordinates": {
+            "lat": "14.8055",
+            "lon": "74.1205"
+        }
+    },
+    {
+        "station": "harwada",
+        "url": "https://indiarailinfo.com/station/map/harwada-HAA/4470",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "16 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Karwar": "KAWR",
+            "Ankola": "ANKL",
+            "Asnoti": "ATJ"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": "N/A"
+    },
+    {
+        "station": "ankola",
+        "url": "https://indiarailinfo.com/station/map/ankola-ANKL/4471",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "25 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Harwada": "HAA",
+            "Gokarna Road": "GOK",
+            "Karwar": "KAWR",
+            "Mirjan": "MRJN"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "14.6545",
+            "lon": "74.2494"
+        }
+    },
+    {
+        "station": "gokarna road",
+        "url": "https://indiarailinfo.com/station/map/gokarna-road-GOK/4472",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "17 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Ankola": "ANKL",
+            "Mirjan": "MRJN",
+            "Kumta": "KT"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "14.5492",
+            "lon": "74.3204"
+        }
+    },
+    {
+        "station": "mirjan",
+        "url": "https://indiarailinfo.com/station/map/mirjan-MRJN/4473",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "14 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Gokarna Road": "GOK",
+            "Kumta": "KT",
+            "Honnavar": "HNA"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "14.5029",
+            "lon": "74.4568"
+        }
+    },
+    {
+        "station": "kumta",
+        "url": "https://indiarailinfo.com/station/map/kumta-KT/4474",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Mirjan": "MRJN",
+            "Honnavar": "HNA",
+            "Gokarna Road": "GOK"
+        },
+        "ratings": {
+            "cleanliness": "good (2)",
+            "porters/escalators": "good (2)",
+            "food": "good (2)",
+            "transportation": "good (2)",
+            "lodging": "good (2)",
+            "railfanning": "good (2)",
+            "sightseeing": "good (2)",
+            "safety": "good (2)"
+        },
+        "coordinates": {
+            "lat": "14.4173",
+            "lon": "74.492"
+        }
+    },
+    {
+        "station": "honnavar",
+        "url": "https://indiarailinfo.com/station/map/honnavar-HNA/4475",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "10 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Kumta": "KT",
+            "Manki": "MKE",
+            "Mirjan": "MRJN",
+            "Murdeshwar": "MRDW"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "14.2831",
+            "lon": "74.4496"
+        }
+    },
+    {
+        "station": "manki",
+        "url": "https://indiarailinfo.com/station/map/manki-MKE/4476",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "25 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Honnavar": "HNA",
+            "Murdeshwar": "MRDW",
+            "Kumta": "KT"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "14.1202",
+            "lon": "74.5264"
+        }
+    },
+    {
+        "station": "murdeshwar",
+        "url": "https://indiarailinfo.com/station/map/murdeshwar-MRDW/4477",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Manki": "MKE",
+            "Chitrapur": "CTPR",
+            "Honnavar": "HNA",
+            "Bhatkal": "BTKL"
+        },
+        "ratings": {
+            "cleanliness": "excellent (3)",
+            "porters/escalators": "excellent (3)",
+            "food": "excellent (3)",
+            "transportation": "excellent (3)",
+            "lodging": "excellent (3)",
+            "railfanning": "excellent (3)",
+            "sightseeing": "excellent (3)",
+            "safety": "excellent (3)"
+        },
+        "coordinates": {
+            "lat": "14.0725",
+            "lon": "74.4842"
+        }
+    },
+    {
+        "station": "chitrapur",
+        "url": "https://indiarailinfo.com/station/map/chitrapur-CTPR/4478",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "10 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Murdeshwar": "MRDW",
+            "Bhatkal": "BTKL",
+            "Manki": "MKE",
+            "Shiroor": "SHRV"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "14.0101",
+            "lon": "74.4952"
+        }
+    },
+    {
+        "station": "bhatkal",
+        "url": "https://indiarailinfo.com/station/map/bhatkal-BTKL/4479",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Chitrapur": "CTPR",
+            "Shiroor": "SHRV",
+            "Murdeshwar": "MRDW"
+        },
+        "ratings": {
+            "cleanliness": "excellent (3)",
+            "porters/escalators": "excellent (3)",
+            "food": "excellent (3)",
+            "transportation": "excellent (3)",
+            "lodging": "excellent (3)",
+            "railfanning": "excellent (3)",
+            "sightseeing": "excellent (3)",
+            "safety": "excellent (3)"
+        },
+        "coordinates": {
+            "lat": "13.9781",
+            "lon": "74.5501"
+        }
+    },
+    {
+        "station": "shiroor",
+        "url": "https://indiarailinfo.com/station/map/shiroor-SHRV/4480",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "17 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Bhatkal": "BTKL",
+            "Mookambika Road Byndoor Halt": "BYNR",
+            "Chitrapur": "CTPR",
+            "Bijoor": "BIJR"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "13.9161",
+            "lon": "74.6067"
+        }
+    },
+    {
+        "station": "mookambika road byndoor halt",
+        "url": "https://indiarailinfo.com/station/map/mookambika-road-byndoor-halt-BYNR/4481",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "17 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Shiroor": "SHRV",
+            "Bijoor": "BIJR",
+            "Bhatkal": "BTKL",
+            "Senapura": "SEN"
+        },
+        "ratings": {
+            "cleanliness": "excellent (2)",
+            "porters/escalators": "excellent (2)",
+            "food": "excellent (2)",
+            "transportation": "excellent (2)",
+            "lodging": "excellent (2)",
+            "railfanning": "excellent (2)",
+            "sightseeing": "excellent (2)",
+            "safety": "excellent (2)"
+        },
+        "coordinates": {
+            "lat": "13.865",
+            "lon": "74.6186"
+        }
+    },
+    {
+        "station": "bijoor",
+        "url": "https://indiarailinfo.com/station/map/bijoor-BIJR/4482",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "10 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Mookambika Road Byndoor Halt": "BYNR",
+            "Senapura": "SEN",
+            "Shiroor": "SHRV"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "13.7844",
+            "lon": "74.6541"
+        }
+    },
+    {
+        "station": "senapura",
+        "url": "https://indiarailinfo.com/station/map/senapura-SEN/4483",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Bijoor": "BIJR",
+            "Kundapura": "KUDA",
+            "Mookambika Road Byndoor Halt": "BYNR"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "13.7042",
+            "lon": "74.6713"
+        }
+    },
+    {
+        "station": "kundapura",
+        "url": "https://indiarailinfo.com/station/map/kundapura-KUDA/4484",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "17 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Senapura": "SEN",
+            "Barkur": "BKJ",
+            "Bijoor": "BIJR",
+            "Udupi": "UD"
+        },
+        "ratings": {
+            "cleanliness": "excellent (3)",
+            "porters/escalators": "excellent (3)",
+            "food": "excellent (3)",
+            "transportation": "excellent (3)",
+            "lodging": "excellent (3)",
+            "railfanning": "excellent (3)",
+            "sightseeing": "excellent (3)",
+            "safety": "excellent (3)"
+        },
+        "coordinates": {
+            "lat": "13.6263",
+            "lon": "74.678"
+        }
+    },
+    {
+        "station": "barkur",
+        "url": "https://indiarailinfo.com/station/map/barkur-BKJ/4485",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "17 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Kundapura": "KUDA",
+            "Udupi": "UD"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "13.4862",
+            "lon": "74.7214"
+        }
+    },
+    {
+        "station": "udupi",
+        "url": "https://indiarailinfo.com/station/map/udupi-UD/4486",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "17 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Barkur": "BKJ",
+            "Innanje": "INJ",
+            "Kundapura": "KUDA",
+            "Padubidri": "PDB"
+        },
+        "ratings": {
+            "cleanliness": "excellent (3)",
+            "porters/escalators": "excellent (3)",
+            "food": "excellent (3)",
+            "transportation": "excellent (3)",
+            "lodging": "excellent (3)",
+            "railfanning": "excellent (3)",
+            "sightseeing": "excellent (3)",
+            "safety": "excellent (3)"
+        },
+        "coordinates": {
+            "lat": "13.3421",
+            "lon": "74.7877"
+        }
+    },
+    {
+        "station": "innanje",
+        "url": "https://indiarailinfo.com/station/map/innanje-INJ/4487",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "17 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Udupi": "UD",
+            "Padubidri": "PDB"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "13.268",
+            "lon": "74.779"
+        }
+    },
+    {
+        "station": "padubidri",
+        "url": "https://indiarailinfo.com/station/map/padubidri-PDB/4488",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Innanje": "INJ",
+            "Nandikoor": "NDL",
+            "Udupi": "UD"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "13.1678",
+            "lon": "74.7937"
+        }
+    },
+    {
+        "station": "nandikoor",
+        "url": "https://indiarailinfo.com/station/map/nandikoor-NDL/4489",
+        "platforms": 1,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Padubidri": "PDB",
+            "Mulki": "MULK",
+            "Innanje": "INJ"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "13.1091",
+            "lon": "74.8055"
+        }
+    },
+    {
+        "station": "mulki",
+        "url": "https://indiarailinfo.com/station/map/mulki-MULK/4490",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "11 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Nandikoor": "NDL",
+            "Surathkal": "SL",
+            "Padubidri": "PDB"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "13.0402",
+            "lon": "74.7997"
+        }
+    },
+    {
+        "station": "surathkal",
+        "url": "https://indiarailinfo.com/station/map/surathkal-SL/4491",
+        "platforms": 2,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "15 m above sea level",
+        "type": "Regular",
+        "category": "NSG-5",
+        "nearby_stations": {
+            "Mulki": "MULK",
+            "Thokur": "TOK",
+            "Nandikoor": "NDL"
+        },
+        "ratings": {
+            "cleanliness": "excellent (2)",
+            "porters/escalators": "excellent (2)",
+            "food": "excellent (2)",
+            "transportation": "excellent (2)",
+            "lodging": "excellent (2)",
+            "railfanning": "excellent (2)",
+            "sightseeing": "excellent (2)",
+            "safety": "excellent (2)"
+        },
+        "coordinates": {
+            "lat": "12.9867",
+            "lon": "74.8093"
+        }
+    },
+    {
+        "station": "thokur",
+        "url": "https://indiarailinfo.com/station/map/thokur-TOK/4492",
+        "platforms": 3,
+        "zone": "KR/Konkan",
+        "division": "Karwar",
+        "state": "Karnataka",
+        "elevation": "17 m above sea level",
+        "type": "Regular",
+        "category": "NSG-6",
+        "nearby_stations": {
+            "Surathkal": "SL",
+            "Mulki": "MULK",
+            "Padubidri": "PDB",
+            "Nandikoor": "NDL"
+        },
+        "ratings": {
+            "cleanliness": "good (1)",
+            "porters/escalators": "good (1)",
+            "food": "good (1)",
+            "transportation": "good (1)",
+            "lodging": "good (1)",
+            "railfanning": "good (1)",
+            "sightseeing": "good (1)",
+            "safety": "good (1)"
+        },
+        "coordinates": {
+            "lat": "12.9463",
+            "lon": "74.8394"
+        }
+    }
+]

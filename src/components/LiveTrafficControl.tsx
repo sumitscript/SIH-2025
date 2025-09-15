@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Radio, Mic, MicOff, Volume2, VolumeX, Phone, Users, AlertTriangle, CheckCircle } from 'lucide-react';
+import TrafficControl from './TrafficControl';
 
 interface ControllerCommunication {
   id: string;
@@ -111,18 +112,23 @@ const LiveTrafficControl: React.FC = () => {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h2 className="text-2xl font-bold text-white">Live Traffic Control Center</h2>
-          <p className="text-slate-400">Real-time communication and coordination hub</p>
-        </div>
-        <div className="flex items-center space-x-4">
-          <div className="flex items-center space-x-2">
-            <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-sm text-green-400">System Online</span>
+      {/* Traffic Control Component */}
+      <TrafficControl />
+      
+      {/* Communication Section */}
+      <div className="border-t border-slate-700 pt-6">
+        <div className="flex items-center justify-between mb-6">
+          <div>
+            <h2 className="text-2xl font-bold text-white">Communication Center</h2>
+            <p className="text-slate-400">Real-time communication and coordination hub</p>
+          </div>
+          <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2">
+              <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              <span className="text-sm text-green-400">System Online</span>
+            </div>
           </div>
         </div>
-      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Communication Channels */}
@@ -323,6 +329,7 @@ const LiveTrafficControl: React.FC = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

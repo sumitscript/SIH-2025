@@ -120,7 +120,7 @@ export const generateOptimizationScenarios = (): OptimizationScenario[] => {
   ];
 };
 
-export const runOptimization = (scenario: OptimizationScenario): Promise<any> => {
+export const runOptimization = (_scenario: OptimizationScenario): Promise<any> => {
   return new Promise((resolve) => {
     setTimeout(() => {
       const results = {

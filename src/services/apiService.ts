@@ -1,4 +1,6 @@
 const BASE_URL = 'http://localhost:3000/api/v2';
+// Define the Konkan API base URL
+// const KONKAN_API_BASE_URL = 'https://konkan-railway-api.railway.gov.in/api/v1';
 
 export interface ApiTrain {
   name: string;
@@ -41,6 +43,18 @@ export interface ApiStationDetail extends ApiStation {
   success: boolean;
 }
 
+// Konkan API specific interfaces
+export interface KonkanTrain extends ApiTrain {
+  section: string;
+  congestionLevel?: string;
+  weatherConditions?: string;
+}
+
+export interface KonkanStation extends ApiStation {
+  zone: string;
+  isJunction: boolean;
+}
+
 export interface TrainsResponse {
   lastUpdatedAt: string;
   trains: Record<string, ApiTrain>;
@@ -53,13 +67,21 @@ export interface StationsResponse {
 }
 
 class ApiService {
+  // Standard API methods
   async fetchAllTrains(): Promise<TrainsResponse> {
     try {
-      const response = await fetch(`${BASE_URL}/fetchTrains/`);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+      // Try to fetch from Konkan API first
+      try {
+        return await this.fetchKonkanTrains();
+      } catch (konkanError) {
+        console.warn('Failed to fetch from Konkan API, falling back to mock API:', konkanError);
+        // Fall back to mock API if Konkan API fails
+        const response = await fetch(`${BASE_URL}/fetchTrains/`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return await response.json();
       }
-      return await response.json();
     } catch (error) {
       console.error('Error fetching trains:', error);
       throw error;
@@ -68,11 +90,18 @@ class ApiService {
 
   async fetchTrain(trainNumber: string): Promise<ApiTrainDetail> {
     try {
-      const response = await fetch(`${BASE_URL}/fetchTrain/${trainNumber}`);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+      // Try to fetch from Konkan API first
+      try {
+        return await this.fetchKonkanTrainDetails(trainNumber);
+      } catch (konkanError) {
+        console.warn(`Failed to fetch train ${trainNumber} from Konkan API, falling back to mock API:`, konkanError);
+        // Fall back to mock API if Konkan API fails
+        const response = await fetch(`${BASE_URL}/fetchTrain/${trainNumber}`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return await response.json();
       }
-      return await response.json();
     } catch (error) {
       console.error(`Error fetching train ${trainNumber}:`, error);
       throw error;
@@ -81,11 +110,18 @@ class ApiService {
 
   async fetchAllStations(): Promise<StationsResponse> {
     try {
-      const response = await fetch(`${BASE_URL}/fetchStations/`);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+      // Try to fetch from Konkan API first
+      try {
+        return await this.fetchKonkanStations();
+      } catch (konkanError) {
+        console.warn('Failed to fetch stations from Konkan API, falling back to mock API:', konkanError);
+        // Fall back to mock API if Konkan API fails
+        const response = await fetch(`${BASE_URL}/fetchStations/`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return await response.json();
       }
-      return await response.json();
     } catch (error) {
       console.error('Error fetching stations:', error);
       throw error;
@@ -94,14 +130,72 @@ class ApiService {
 
   async fetchStation(stationName: string): Promise<ApiStationDetail> {
     try {
-      const response = await fetch(`${BASE_URL}/fetchStation/${stationName}`);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+      // Try to fetch from Konkan API first
+      try {
+        return await this.fetchKonkanStationDetails(stationName);
+      } catch (konkanError) {
+        console.warn(`Failed to fetch station ${stationName} from Konkan API, falling back to mock API:`, konkanError);
+        // Fall back to mock API if Konkan API fails
+        const response = await fetch(`${BASE_URL}/fetchStation/${stationName}`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return await response.json();
       }
-      return await response.json();
     } catch (error) {
       console.error(`Error fetching station ${stationName}:`, error);
       throw error;
+    }
+  }
+  
+  // Konkan API specific methods
+  async fetchKonkanTrains(): Promise<TrainsResponse> {
+    const response = await fetch(`$BASE_URL/trains`);
+    if (!response.ok) {
+      throw new Error(`Konkan API HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  }
+  
+  async fetchKonkanTrainDetails(trainNumber: string): Promise<ApiTrainDetail> {
+    const response = await fetch(`$BASE_URL/trains/${trainNumber}`);
+    if (!response.ok) {
+      throw new Error(`Konkan API HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  }
+  
+  async fetchKonkanStations(): Promise<StationsResponse> {
+    const response = await fetch(`$BASE_URL/stations`);
+    if (!response.ok) {
+      throw new Error(`Konkan API HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  }
+  
+  async fetchKonkanStationDetails(stationName: string): Promise<ApiStationDetail> {
+    const response = await fetch(`$BASE_URL/stations/${stationName}`);
+    if (!response.ok) {
+      throw new Error(`Konkan API HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  }
+  
+  // Method to check if Konkan API is available
+  async checkKonkanApiAvailability(): Promise<boolean> {
+    try {
+      const response = await fetch(`$BASE_URL/health`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        // Short timeout to quickly determine if API is available
+        signal: AbortSignal.timeout(3000)
+      });
+      return response.ok;
+    } catch (error) {
+      console.error('Konkan API health check failed:', error);
+      return false;
     }
   }
 }
